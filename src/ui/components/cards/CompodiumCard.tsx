@@ -44,7 +44,7 @@ export default function CompodiumCard({
             </div>
             <div className="mt-4">
                 <Link aria-label="link" to={url} target="_blank">
-                    <button className="flex justify-between items-center w-full px-5 py-3 text-white font-medium rounded-md bg-gradient-to-r from-primary to-primary-hover hover:from-[#5C6BC01A] hover:to-[#5c6bc077] hover:text-primary-text transition text-center">
+                    <button className="flex justify-between items-center w-full px-5 py-3 text-white font-medium rounded-md bg-gradient-to-r from-primary to-primary-hover hover:from-[#A52A2A1A] hover:to-[#cc282846] hover:text-primary-text transition text-center">
                         <h2 className="w-full">Visit Journal</h2>
                     </button>
                 </Link>

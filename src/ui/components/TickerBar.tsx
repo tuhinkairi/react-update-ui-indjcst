@@ -29,7 +29,7 @@ export default function TickerBar() {
   }
 
   return (
-    <div className="relative w-full overflow-hidden bg-[#26A69A] text-white">
+    <div className="relative w-full overflow-hidden bg-[#ECA600] text-white">
       <div className="flex items-center overflow-hidden">
         {/* Label Section */}
         <div className="relative bg-primary px-2 sm:px-6 py-4 text-white font-semibold whitespace-nowrap ">

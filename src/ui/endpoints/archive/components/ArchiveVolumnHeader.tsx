@@ -156,7 +156,7 @@ function ArchiveVolumnHeader({
                                 className={`flex whitespace-nowrap justify-between items-center w-fit px-8 py-3 font-medium rounded-md transition 
                             ${issue === activeIssue
                                         ? "text-white bg-gradient-to-b from-primary to-primary-hover "
-                                        : "hover:text-white bg-gradient-to-b hover:from-primary hover:to-primary-hover from-[#5C6BC01A] to-[#5C6BC01A] text-primary-text"
+                                        : "hover:text-white bg-gradient-to-b hover:from-primary hover:to-primary-hover from-[#A52A2A1A] to-[#A52A2A1A] text-primary-text"
                                     }`}
                             >
                                 {issue}

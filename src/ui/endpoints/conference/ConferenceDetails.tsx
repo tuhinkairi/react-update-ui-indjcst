@@ -99,7 +99,7 @@ const ConferenceDetails = () => {
                 </span>
               ))}
             </div> */}
-              <button className="hidden sm:inline-flex items-center justify-center bg-[#5C6BC01A]  text-sm xl:text-base 2xl:text-lg font-medium px-6 py-2.5 gap-3 hover:bg-[#5c6bc077]  text-paragraph transition-colors rounded-full h-fit">
+              <button className="hidden sm:inline-flex items-center justify-center bg-[#A52A2A1A]  text-sm xl:text-base 2xl:text-lg font-medium px-6 py-2.5 gap-3 hover:bg-[#cc282846]  text-paragraph transition-colors rounded-full h-fit">
                 <Share2 size={13} className="inline-block" /> Share
               </button>
             </div>
@@ -138,7 +138,7 @@ const ConferenceDetails = () => {
             }
           </div>
 
-          <button className="inline-flex sm:hidden items-center justify-center bg-[#5C6BC01A] text-primary-text text-sm xl:text-base 2xl:text-lg font-medium w-12 h-12 hover:bg-[#5c6bc077] transition-colors rounded-full">
+          <button className="inline-flex sm:hidden items-center justify-center bg-[#A52A2A1A] text-primary-text text-sm xl:text-base 2xl:text-lg font-medium w-12 h-12 hover:bg-[#cc282846] transition-colors rounded-full">
             <Share2 size={13} className="inline-block" />
           </button>
 
@@ -154,7 +154,7 @@ const ConferenceDetails = () => {
             </Link>
           </div>
 
-          <button className={`hidden sm:inline-flex items-center justify-center ${copy ? "bg-green-300 hover:bg-green-400" : "bg-[#5C6BC01A] hover:bg-[#5c6bc077]"} text-primary-text text-sm xl:text-base 2xl:text-lg font-medium w-12 h-12  xl:h-16 xl:w-16 transition-colors rounded-full`} onClick={() => {
+          <button className={`hidden sm:inline-flex items-center justify-center ${copy ? "bg-green-300 hover:bg-green-400" : "bg-[#A52A2A1A] hover:bg-[#cc282846]"} text-primary-text text-sm xl:text-base 2xl:text-lg font-medium w-12 h-12  xl:h-16 xl:w-16 transition-colors rounded-full`} onClick={() => {
             navigator.clipboard.writeText(window.location.href)
             SetCopy(true)
             setTimeout(() => {

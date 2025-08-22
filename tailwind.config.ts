@@ -18,12 +18,12 @@ const config: Config = {
           100: '#FCEFE5',
           200: '#F5D5B2',
         },
-        primary: '#5C6BC0',         // CTAs, highlights
-        primaryHover: '#2B325A',    // CTA hover
+        primary: '#A52A2A',         // CTAs, highlights
+        primaryHover: '#3F1010',    // CTA hover
         dark: '#1A1A1A',            // Deep black text
         primary_bg: '#f9f9f9',       // Background sections
-        divider: '#5C6BC0',         // Dividers, outlines
-        primaryText: '#5C6BC0',        // Base paragraph text
+        divider: '#A52A2A',         // Dividers, outlines
+        primaryText: '#A52A2A',        // Base paragraph text
         secondaryText: '#6B7280',           // Secondary text (gray-600)
         paragraph: '#6B7280',           // Secondary text (gray-600)
         whiteText: '#FFFFFF',           // White (default)

@@ -90,7 +90,7 @@ export default function ArchiveSection() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 border-collapse">
         {/* thesis */}
         {thesis && yearVolumeThesis && yearVolumeThesis.map((vol, index) => (
-          <div key={index} className={`relative border ${openIndex === index ? "border-[#000099B2] text-[#000099B2] rounded-bl-none rounded-br-none " : "hover:border-[#000099B2] hover:text-[#000099B2] border-gray-400"} rounded-md`}>
+          <div key={index} className={`relative border ${openIndex === index ? "border-primary text-primary rounded-bl-none rounded-br-none " : "hover:border-primary hover:text-primary border-gray-400"} rounded-md`}>
             <button
               onClick={() => {
                 handelActiveThesisIndex(vol)
@@ -107,7 +107,7 @@ export default function ArchiveSection() {
         ))}
         {/* archive */}
         {!thesis && !issue && volume && volume.map((vol, index) => (
-          <div key={index} className={`relative border ${openIndex === index ? "border-[#000099B2] text-[#000099B2] rounded-bl-none rounded-br-none " : "hover:border-[#000099B2] hover:text-[#000099B2] border-gray-400"} rounded-md`}>
+          <div key={index} className={`relative border ${openIndex === index ? "border-primary text-primary rounded-bl-none rounded-br-none " : "hover:border-primary hover:text-primary border-gray-400"} rounded-md`}>
             <button
               onClick={() => toggleDropdown(index)}
               className="w-full flex justify-between items-center px-4 py-3 text-left focus:outline-none "
@@ -151,7 +151,7 @@ export default function ArchiveSection() {
         {/* current issue */}
         {!thesis && issue && volume && volume.map((vol, index) => (
 
-          (index == 0 && <div key={index} className={`relative border ${openIndex === index ? "border-[#000099B2] text-[#000099B2] rounded-bl-none rounded-br-none " : "hover:border-[#000099B2] hover:text-[#000099B2] border-gray-400"} rounded-md`}>
+          (index == 0 && <div key={index} className={`relative border ${openIndex === index ? "border-primary text-primary rounded-bl-none rounded-br-none " : "hover:border-primary hover:text-primary border-gray-400"} rounded-md`}>
             <button
               onClick={() => toggleDropdown(index)}
               className="w-full flex justify-between items-center px-4 py-3 text-left focus:outline-none"

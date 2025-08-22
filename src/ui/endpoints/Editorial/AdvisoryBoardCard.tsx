@@ -33,7 +33,7 @@ src={image} alt={name} className="w-full h-full object-cover sm:aspect-square"  
         <div className="flex justify-end mt-3">
           <button
             onClick={onViewMore}
-            className="bg-[#5C6BC01A] text-primary-text hover:bg-[#5c6bc077] transition px-6 py-2 rounded-lg text-[16px] font-medium"
+            className="bg-[#A52A2A1A] text-primary-text hover:bg-[#cc282846] transition px-6 py-2 rounded-lg text-[16px] font-medium"
           >
             View More
           </button>
