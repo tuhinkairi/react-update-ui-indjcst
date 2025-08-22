@@ -15,10 +15,12 @@ export default function EthicsAndPolicy() {
           <div className="">
             <Title>Ethics &amp; Policies</Title>
             <p className=" leading-[1.9] my-5">
-              The Indian Journal of Computer Science and Technology (INDJCST) is (Online), Bi-monthly international journal for publication of new ideas founded by academicians, educationist, engineers and corporate people. The research results and fund FDRP ental advancement are all aspects of Innovative Research in Advanced Engineering &amp; Technology and various engineering disciplines, etc. INDJCST is a scholarly open access, Peer Review Journal which helps to academic person as well as student community. INDJCST provides the academic community and industry for the submission of original research and applications related to Various Engineering discipline and Advanced Technologies by Fifth Dimension Research Publications (FDRP) Tamil Nadu, India since year 2020.
+              The Indian Journal of Computer Science and Technology (INDJCST) aims to advance research, innovation, and knowledge dissemination in the field of Computer Science and Technology. The journal provides an open-access platform for researchers, academicians, industry professionals, and students to publish their original research findings, review articles, and technical studies. By promoting high-quality research and encouraging scholarly communication, INDJCST supports the growth of scientific inquiry and technological development both in India and globally.
+              <br />
+              INDJCST provides the academic community and industry for the submission of original research and applications related to Various Computer Science discipline and Advanced Technologies by Fifth Dimension Research Publications (FDRP) Tamil Nadu, India since year 2020
             </p>
             <p className=" leading-[1.9] ">
-              The publication of an article in a peer-reviewed journal is an essential building block in the development of a coherent and respected network of knowledge. It is a direct reflection of the quality of work of the author and the institutions that support them. Double Blind Peer-reviewed articles support and embody the scientific method. It is therefore important to agree upon standards of expected ethical behaviour.
+              The publication of an article in a peer-reviewed journal is an essential building block in the development of a coherent and respected network of knowledge. It is a direct reflection of the quality of work of the author and the institutions that support them. Peer-reviewed articles support and embody the scientific method. It is therefore important to agree upon standards of expected ethical behaviour.
             </p>
           </div>
         </div>
