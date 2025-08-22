@@ -17,7 +17,8 @@ export default function Hero() {
         </p>
         <article className="text-muted sm:text-base 2xl:text-lg max-w-xl 2xl:max-w-3xl  text-paragraph leading-6 sm:leading-normal">
           <p>
-            An International Scholarly Open Access Journal, Peer-reviewed, Refereed Journal.  High Impact factor, Bi-Monthly, Multidisciplinary Journal.
+            A Scholarly Open Access Journal, Peer-reviewed, Refereed Journal
+            High Impact factor, 3 Issues per year, Computer Science and Technology Journal.
           </p>
         </article>
         <Link aria-label="link" to="https://editorial.fdrpjournals.org/login?journal=1" target='_blank'>
