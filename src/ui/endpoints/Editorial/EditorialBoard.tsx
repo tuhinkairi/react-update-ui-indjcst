@@ -113,10 +113,10 @@ const EditorBoard = () => {
                         />
                         <ContactCard
                             role="Managing Editor :"
-                            name="E. Sathya"
-                            designation="Assistant Professor Department of Electronics and Communication Engineering"
-                            organization="Holymary Institute of Technology & Science. Hyderabad-501301.India"
-                            email="editorijire@gmail.com"
+                            name="Dr. Vetriveeran Rajamani"
+                            designation="Associate Professor"
+                            organization="Vellore Institute of Technology (VIT) University, Vellore 632 014, Tamil Nadu, India."
+                            email="vetriveeran.r@vit.ac.in"
                         />
                     </div>
                     
