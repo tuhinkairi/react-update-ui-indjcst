@@ -21,7 +21,7 @@ export default function GuidePaper() {
         <br />
         <br />
         Papers for the regular issues of the journal can be submitted, round the year, electronically
-        at Editorial Management System /editorinchief@theijire.com, after the final acceptance of
+        at Editorial Management System /editorinchief@indjcst.com, after the final acceptance of
         the paper, based upon the detailed review process, the paper will immediately be published
         online. However, assignment of the paper to a specific Volume / Issue of the Journal will be
         taken up by the Editorial Board later; and the author will be intimated accordingly. For Theme
@@ -132,7 +132,7 @@ export default function GuidePaper() {
           Prospective authors are invited to submit full text papers including abstract, keywords,
           introduction, methodology, result description, tables, figures and references. Full text papers
           (.doc, .pdf) may submit to Editorial Management system (online) or send by e-mail
-          at <Link aria-label="link" to={"mailto:editorinchief@theijire.com"} target="_blank" className="text-blue-500">editorinchief@theijire.com.</Link>
+          at <Link aria-label="link" to={"mailto:editorinchief@indjcst.com"} target="_blank" className="text-blue-500">editorinchief@indjcst.com.</Link>
           <br />
           <br />
           Paper Template of INDJCST available at <Link aria-label="link" to={"/downloads"} className="text-primary">Downloads</Link>
@@ -293,7 +293,7 @@ export default function GuidePaper() {
             These PDF proofs can be annotated; for this you need to download Adobe Reader version 7
             (or higher) available free at get.adobe.com/reader If authors do not wish to use the PDF
             annotations function, they may list the corrections and return them to INDJCST in an e-
-            mail <Link aria-label="link" to="mailto:editorinchief@theijire.com" className="text-blue-500">editorinchief@theijire.com</Link>, Please list corrections quoting line number. If, for any reason,
+            mail <Link aria-label="link" to="mailto:editorinchief@indjcst.com" className="text-blue-500">editorinchief@indjcst.com</Link>, Please list corrections quoting line number. If, for any reason,
             this is not possible, then mark the corrections and any other comments on a printout of the
             proof and then scan the pages having corrections and e-mail them back, within 05 days.
             Please use this proof only for checking the typesetting, editing, completeness and

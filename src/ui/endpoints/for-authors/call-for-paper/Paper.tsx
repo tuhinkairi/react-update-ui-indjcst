@@ -17,7 +17,7 @@ const Paper = () => {
       </p>
 
       <p className="mb-4 text-justify leading-relaxed">
-        International Journal Papers for the regular issues of the Journal can be submitted, around the year, electronically at <span className="font-medium">editorinchief@theijire.com</span>.
+        International Journal Papers for the regular issues of the Journal can be submitted, around the year, electronically at <span className="font-medium">editorinchief@indjcst.com</span>.
         After the final acceptance of the paper, based upon the detailed review process, it will immediately be published online. However, the assignment of the report to a specific Volume / Issue (see archive) of the journal will be taken up by the Editorial Board later;
         and the author will be intimated accordingly. For Theme Based Special Issues, time-bound Special Calls for Papers will be informed, and the same will only apply to that specific issue.
       </p>

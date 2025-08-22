@@ -28,7 +28,7 @@ export default function Footer() {
               <p>No: 38D5F, Rajaji nagar, Ariyalur-621713.</p>
               <p>Tamilnadu, India.</p>
               <div className="mt-4">
-                <p>Email: <NavLink to="mailto:editorinchief@theijire.com" className="text-blue-600 hover:text-blue-800 underline">editorinchief@theijire.com</NavLink></p>
+                <p>Email: <NavLink to="mailto:editorinchief@indjcst.com" className="text-blue-600 hover:text-blue-800 underline">editorinchief@indjcst.com</NavLink></p>
                 <p><NavLink to="mailto:Support@fdrpjournals.org" className="text-blue-600 hover:text-blue-800 underline">Support@fdrpjournals.org</NavLink></p>
               </div>
               <p>Mobile: +91 9840521421</p>

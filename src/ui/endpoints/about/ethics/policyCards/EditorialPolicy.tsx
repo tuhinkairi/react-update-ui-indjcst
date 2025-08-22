@@ -53,7 +53,7 @@ export default function EditorialPolicy() {
                     <br />
                     Every retraction issued will lead to publication for providing a valid reason for it or sometimes an
                     author explanation is needed as well and we follow the <Link to="https://publicationethics.org/guidance/guideline/retraction-guidelines  " aria-label="cope retraction" className="text-primary">COPE Retraction guidelines</Link>. Please contact
-                    <Link aria-label="link" to={"mailto:editorinchief@theijire.com"} target="_blank" className="text-blue-500">editorinchief@theijire.com</Link> for such cases.</p>
+                    <Link aria-label="link" to={"mailto:editorinchief@indjcst.com"} target="_blank" className="text-blue-500">editorinchief@indjcst.com</Link> for such cases.</p>
             </div>
             <div>
                 <h3 className="text-lg xl:text-2xl 2xl:text-3xl font-medium mb-2">
@@ -123,13 +123,13 @@ export default function EditorialPolicy() {
                     <br />
                     <br />
 
-                    Send a message to the publisher’s contact at editorinchief@theijire.com if they are the target of
+                    Send a message to the publisher’s contact at editorinchief@indjcst.com if they are the target of
                     the complaint.
                     <br />
                     <br />
                     Complaints within a year of the original publication date will be considered about any published
                     items. Authors are requested to send any concerns to the editorial office by email
-                    at <Link aria-label="link" to="mailto:editorinchief@theijire.com" target="_blank" className="text-blue-500">editorinchief@theijire.com</Link> along with their justifications.
+                    at <Link aria-label="link" to="mailto:editorinchief@indjcst.com" target="_blank" className="text-blue-500">editorinchief@indjcst.com</Link> along with their justifications.
                 </p>
             </div>
             <div>

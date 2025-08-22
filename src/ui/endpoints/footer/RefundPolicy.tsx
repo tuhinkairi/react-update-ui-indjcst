@@ -75,7 +75,7 @@ export default function RefundPolicy() {
                             The Indian Journal of Computer Science and Technology (INDJCST)
                         </li>
                         <li>
-                            Email: <a aria-label="link" href="mailto:editorinchief@theijire.com" className="text-accent-blue hover:underline">editorinchief@theijire.com</a>
+                            Email: <a aria-label="link" href="mailto:editorinchief@indjcst.com" className="text-accent-blue hover:underline">editorinchief@indjcst.com</a>
                         </li>
                         <li>
                             Publisher:

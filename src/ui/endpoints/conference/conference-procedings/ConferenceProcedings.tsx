@@ -44,7 +44,7 @@ const ConferenceProcedings = () => {
                         <div className="mt-3">
                             <h4 className="font-semibold mb-2">📬 Email Address:</h4>
                             <p>
-                                <a aria-label="link" href="mailto:editorinchief@theijire.com" className="text-accent-blue hover:underline">editorinchief@theijire.com</a>, <a aria-label="link" className="text-accent-blue hover:underline" href="mailto:support@fdrpjournals.org">support@fdrpjournals.org</a>
+                                <a aria-label="link" href="mailto:editorinchief@indjcst.com" className="text-accent-blue hover:underline">editorinchief@indjcst.com</a>, <a aria-label="link" className="text-accent-blue hover:underline" href="mailto:support@fdrpjournals.org">support@fdrpjournals.org</a>
                                 <br />
                                 <span className="text-red-500 font-semibold">Note:</span> You may also WhatsApp or call the editor after sending the proposal for confirmation or queries.
                             </p>
@@ -247,9 +247,9 @@ const ConferenceProcedings = () => {
                     <li>
                         <h2 className="text-xl mb-2 font-semibold inline-block">14. Whom should we contact for further communication or emergency support?</h2>
                         <p>You can reach INDJCST via:<br />
-                        📧 Email: <a aria-label="link" href="mailto:editorinchief@theijire.com" className="text-accent-blue hover:underline">editorinchief@theijire.com</a>, <a aria-label="link" href="mailto:support@fdrpjournals.org" className="text-accent-blue hover:underline">support@fdrpjournals.org</a><br />
+                        📧 Email: <a aria-label="link" href="mailto:editorinchief@indjcst.com" className="text-accent-blue hover:underline">editorinchief@indjcst.com</a>, <a aria-label="link" href="mailto:support@fdrpjournals.org" className="text-accent-blue hover:underline">support@fdrpjournals.org</a><br />
                         📱 WhatsApp / Call: +91-9840521421<br />
-                        🌐 Website: www.theijire.com</p>
+                        🌐 Website: www.indjcst.com</p>
                     </li>
                 </ul>
             </div>

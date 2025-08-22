@@ -161,10 +161,10 @@ export default function TermsAndConditions() {
                              The Indian Journal of Computer Science and Technology (INDJCST)
                         </li>
                         <li>
-                            Email: <a aria-label="link" href="mailto:editorinchief@theijire.com" className="text-accent-blue hover:underline">editorinchief@theijire.com</a>
+                            Email: <a aria-label="link" href="mailto:editorinchief@indjcst.com" className="text-accent-blue hover:underline">editorinchief@indjcst.com</a>
                         </li>
                         <li>
-                            Website: <Link aria-label="link" to="https://www.theijire.com" className="text-accent-blue hover:underline">https://www.theijire.com/</Link>
+                            Website: <Link aria-label="link" to="https://www.indjcst.com" className="text-accent-blue hover:underline">https://www.indjcst.com/</Link>
                         </li>
                         <li>
                             Publisher Website: <Link aria-label="link" to="https://fdrpjournals.org" className="text-accent-blue hover:underline">https://fdrpjournals.org/</Link>
