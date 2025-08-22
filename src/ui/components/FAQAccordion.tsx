@@ -5,7 +5,7 @@ import Title2h2 from "../other/Title2h2";
 const faqData = [
   {
     question: "When it was started? | when first issue of the journal was published?",
-    answer: "It was started in year 2020. INDJCST is being published by 5th Dimension Research Publication. First Issue: July-August 2020.",
+    answer: "It was started in year 2022. INDJCST is being published by 5th Dimension Research Publication. First Issue: July-August 2022.",
   },
   {
     question: "What is the plagiarism policy",

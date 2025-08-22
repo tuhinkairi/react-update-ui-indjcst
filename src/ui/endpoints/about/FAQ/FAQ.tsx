@@ -15,7 +15,7 @@ export default function FAQ() {
 
                 <div>
                     <p><span className="font-semibold">Q–2: When it was started? | When first issue of the journal was published?</span></p>
-                    <p className="text-paragraph">Ans: It was started in year 2020. INDJCST is being published by 5th Dimension Research Publication. First Issue: July-August 2020.</p>
+                    <p className="text-paragraph">Ans: It was started in year 2022. INDJCST is being published by 5th Dimension Research Publication. First Issue: July-August 2022.</p>
                 </div>
 
                 <div>
