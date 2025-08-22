@@ -11,7 +11,7 @@ const SubmitPaperSection = () => {
           <br />
            Experience a streamlined submission process and gain wide academic visibility.
         </p>
-        <Link aria-label="link" target="_black" to="https://editorial.fdrpjournals.org/login?journal=1">
+        <Link aria-label="link" target="_black" to="https://editorial.fdrpjournals.org/login?journal=6">
           <button className="w-fit max-w-1/3 sm:max-w-1/2 md:w-auto primaryBtn whitespace-nowrap">
             Submit Paper
           </button>

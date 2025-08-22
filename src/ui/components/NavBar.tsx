@@ -158,7 +158,7 @@ const Navbar = () => {
         {/* CTA */}
         <div className="flex space-x-4">
           <Link
-            to="https://editorial.fdrpjournals.org/login?journal=1"
+            to="https://editorial.fdrpjournals.org/login?journal=6"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -180,7 +180,7 @@ const Navbar = () => {
         {/* CTA + Hamburger */}
         <div className="flex items-center space-x-4">
           <Link
-            to="https://editorial.fdrpjournals.org/login?journal=1"
+            to="https://editorial.fdrpjournals.org/login?journal=6"
             target="_blank"
             rel="noopener noreferrer"
           >

@@ -21,7 +21,7 @@ export default function Hero() {
             High Impact factor, 3 Issues per year, Computer Science and Technology Journal.
           </p>
         </article>
-        <Link aria-label="link" to="https://editorial.fdrpjournals.org/login?journal=1" target='_blank'>
+        <Link aria-label="link" to="https://editorial.fdrpjournals.org/login?journal=6" target='_blank'>
           <button className="primaryBtn">
             Submit Article <ArrowRight className="w-4 h-4" />
           </button>
