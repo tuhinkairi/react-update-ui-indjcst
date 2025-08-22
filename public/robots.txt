@@ -1,0 +1,6 @@
+# robots.txt for IJIRE
+
+User-agent: *
+Allow: /
+
+Sitemap: https://IJIRE-react.vercel.app/sitemap.xml
