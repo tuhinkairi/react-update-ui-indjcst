@@ -139,8 +139,8 @@ export default function ThesisVolumes() {
 
             fetchThesisData().finally(() => {
                 SetMetaData({
-                    title: `${ThesisIndex?.year ?? URL_Year} Volume ${ThesisIndex?.volume ?? URL_Volume} | International Journal | IJIRE`,
-                    description: "Explore the IJIRE archives for top research papers in engineering and technology. Access past volumes and stay updated with the latest innovations"
+                    title: `${ThesisIndex?.year ?? URL_Year} Volume ${ThesisIndex?.volume ?? URL_Volume} | International Journal | INDJCST`,
+                    description: "Explore the INDJCST archives for top research papers in engineering and technology. Access past volumes and stay updated with the latest innovations"
                 });
                 setParams({
                     year: activeThesisIndex?.year  ?? "",

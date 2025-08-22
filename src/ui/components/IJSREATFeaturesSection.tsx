@@ -25,8 +25,8 @@ export default function IJSREATFeaturesSection() {
       <div className="grid md:grid-cols-2 items-center gap-10">
         {/* Features List */}
         <div>
-          {/* <h2 className="text-2xl md:text-3xl font-semibold text-dark mb-4">IJIRE Features</h2> */}
-          <Title2h2 className='mb-4'>IJIRE Features</Title2h2>
+          {/* <h2 className="text-2xl md:text-3xl font-semibold text-dark mb-4">INDJCST Features</h2> */}
+          <Title2h2 className='mb-4'>INDJCST Features</Title2h2>
           <ul className="space-y-4">
             {features.map((item, index) => (
               <li key={index} className="flex items-start gap-3 text-gray-700 text-base 2xl:text-base">

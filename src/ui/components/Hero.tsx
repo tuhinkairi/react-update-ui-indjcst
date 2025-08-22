@@ -9,11 +9,11 @@ export default function Hero() {
         <h1 className="text-3xl sm:text-4xl 2xl:text-5xl font-bold leading-tight md:w-4/5 lg:w-full">
           <span className="bg-gradient-to-b from-primary to-primary-hover text-transparent bg-clip-text text-[2rem] 2xl:text-[3.5rem] sm:text-5xl block">International Journal</span>{' '}
           <span className="text-primaryText">
-            of Innovative Research in Engineering
+            of Computer Science and Technology
           </span>
         </h1>
         <p className=" text-base sm:text-lg 2xl:text-xl">
-          e-ISSN:2582-8746, Follows UGC-CARE Guidelines
+          e-ISSN:2583-5300, Follows UGC-CARE Guidelines
         </p>
         <article className="text-muted sm:text-base 2xl:text-lg max-w-xl 2xl:max-w-3xl  text-paragraph leading-6 sm:leading-normal">
           <p>

@@ -8,13 +8,13 @@ export default function PublicationContent() {
         <div className="space-y-4 pb-4 text-muted-foreground text-base 2xl:text-lg text-[#333333] leading-relaxed">
             {path ? <Titleh2>Publication Ethics Policy:</Titleh2> : <Title>Publication Ethics Policy:</Title>}
             <h3 className='font-medium text-center'>(The comments that follow are founded on Elsevier guidelines as well as COPE's Best Practice Guidelines for Journal Editors.)</h3>
-            <p className='mt-6'>We at IJIRE (International Journal of Innovative Research in Engineering) strongly believe in following these guidelines to maintain fair practice. We are committed to fair practice of publication. Success in this regard can be achieved if the following participants will practice ethics:</p>
+            <p className='mt-6'>We at INDJCST (The Indian Journal of Computer Science and Technology) strongly believe in following these guidelines to maintain fair practice. We are committed to fair practice of publication. Success in this regard can be achieved if the following participants will practice ethics:</p>
             <div className="space-y-3">
                 <h4 className="font-semibold text-lg 2xl:text-xl">Journal publishing ethics rules:</h4>
                 <p>
                     International Journal of Innovative Research in
-                    Engineering (IJIRE) is committed to ensuring ethics in the publication and quality of articles. International Journal of Innovative Research in
-                    Engineering (IJIRE) follows the Code of Conduct as defined by the Committee of Publication Ethics (COPE). {<Link aria-label="link" to="https://publicationethics.org/membership/code-of-conduct" className="text-accent-blue" target='_blank'>https://publicationethics.org/membership/code-of-conduct</Link>}.
+                    Engineering (INDJCST) is committed to ensuring ethics in the publication and quality of articles. International Journal of Innovative Research in
+                    Engineering (INDJCST) follows the Code of Conduct as defined by the Committee of Publication Ethics (COPE). {<Link aria-label="link" to="https://publicationethics.org/membership/code-of-conduct" className="text-accent-blue" target='_blank'>https://publicationethics.org/membership/code-of-conduct</Link>}.
                     These ethics include the editor following specific rules on relations with readers, authors, and reviewers and procedures for handling complaints. Conformance to standards of ethical behavior is therefore expected of all parties involved: Authors, Editors, Reviewers, and the Publisher. In particular.
                 </p>
             </div>

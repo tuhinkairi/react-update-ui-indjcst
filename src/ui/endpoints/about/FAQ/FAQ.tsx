@@ -10,12 +10,12 @@ export default function FAQ() {
 
                 <div className="mt-6">
                     <p><span className="font-semibold">Q–1: What is the ISSN of the journal?</span></p>
-                    <p className="text-paragraph">Ans: ISSN: ISSN-2582-8746</p>
+                    <p className="text-paragraph">Ans: ISSN: ISSN-2583-5300</p>
                 </div>
 
                 <div>
                     <p><span className="font-semibold">Q–2: When it was started? | When first issue of the journal was published?</span></p>
-                    <p className="text-paragraph">Ans: It was started in year 2020. IJIRE is being published by 5th Dimension Research Publication. First Issue: July-August 2020.</p>
+                    <p className="text-paragraph">Ans: It was started in year 2020. INDJCST is being published by 5th Dimension Research Publication. First Issue: July-August 2020.</p>
                 </div>
 
                 <div>

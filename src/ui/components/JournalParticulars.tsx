@@ -9,13 +9,13 @@ const JournalParticulars: React.FC = () => {
         <div className="space-y-2">
           <p className='text-paragraph'><span className="font-semibold text-primary-text">Title :</span> International Journal of  Innovative Research in Engineering</p>
           <p className='text-paragraph'><span className="font-semibold text-primary-text">Frequency :</span> Bi-Monthly</p>
-          <p className='text-paragraph'><span className="font-semibold text-primary-text">ISSN :</span> 2582-8746</p>
+          <p className='text-paragraph'><span className="font-semibold text-primary-text">ISSN :</span> 2583-5300</p>
           <p className='text-paragraph'><span className="font-semibold text-primary-text">Publisher :</span> Fifth Dimension Research Publication (P) Ltd.</p>
           <p className='text-paragraph'><span className="font-semibold text-primary-text">Editor–in–Chief :</span> Dr. S. Sivaganesan (Professor & Head)</p>
           <p className='text-paragraph'><span className="font-semibold text-primary-text">Copyright :</span> Fifth Dimension Research Publication (P) Ltd.</p>
           <p className='text-paragraph'><span className="font-semibold text-primary-text">Starting Year :</span> 2020</p>
           <p className='text-paragraph'><span className="font-semibold text-primary-text">Subject :</span> Engineering</p>
-          <p className='text-paragraph'><span className="font-semibold text-primary-text">DOI :</span> 10.59256/ijire</p>
+          <p className='text-paragraph'><span className="font-semibold text-primary-text">DOI :</span> 10.59256/indjcst</p>
           <p className='text-paragraph'><span className="font-semibold text-primary-text">Language :</span> English</p>
           <p className='text-paragraph'><span className="font-semibold text-primary-text">Publication Format :</span> Online</p>
           <p className='text-paragraph'><span className="font-semibold text-primary-text">Mobile No :</span> +91 9840521421</p>

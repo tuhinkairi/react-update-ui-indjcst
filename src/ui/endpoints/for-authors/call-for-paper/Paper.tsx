@@ -6,14 +6,14 @@ const Paper = () => {
       <Title>Call for Papers</Title>
 
       <p className="my-6 text-justify leading-relaxed">
-         International Journal of Innovative Research in Engineering (IJIRE) has
-        ISSN: 2582-8746 (online), Bi Monthly international journal by Fifth Dimension Research
+         The Indian Journal of Computer Science and Technology (INDJCST) has
+        ISSN: 2583-5300 (online), Bi Monthly international journal by Fifth Dimension Research
         Publication. It is an academic, online, open access, Peer reviewed international journal. It aims
         to publish original, theoretical, and practical advances in Computer Science Engineering,
         Internet of things, Data Science, Machine learning, Information Technology, Electrical and
         Electronics Engineering, Electronics and Telecommunication, Mechanical Engineering, Civil
         Engineering, Textile Engineering, and all interdisciplinary streams of Engineering Sciences.
-        The board of committee of IJIRE will review all submitted papers.
+        The board of committee of INDJCST will review all submitted papers.
       </p>
 
       <p className="mb-4 text-justify leading-relaxed">

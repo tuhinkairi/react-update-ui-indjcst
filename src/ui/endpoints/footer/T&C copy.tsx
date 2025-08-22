@@ -15,7 +15,7 @@ export default function TermsAndConditions() {
                     </h2>
                     <p>
                         By submitting a manuscript, registering as a reviewer, or accessing content from the International
-                        Journal of Scientific Research in Engineering & Technology (IJIRE), you agree to comply with
+                        Journal of Scientific Research in Engineering & Technology (INDJCST), you agree to comply with
                         these Terms and Conditions. If you do not agree, please refrain from using our services.
                     </p>
                 </div>
@@ -43,7 +43,7 @@ export default function TermsAndConditions() {
                         <h3>
                             b. Peer Review Process</h3>
                         <p>
-                            IJIRE follows a Single peer review process.
+                            INDJCST follows a Single peer review process.
                             Reviewers must maintain confidentiality and declare conflicts of interest.
                             The editorial board reserves the right to accept, reject, or request revisions without explanation.
                         </p>
@@ -52,11 +52,11 @@ export default function TermsAndConditions() {
 
                         <h3>c. Open Access &amp; Copyright</h3>
                         <p>
-                            IJIRE is an open-access journal; published articles are freely available under a Creative
+                            INDJCST is an open-access journal; published articles are freely available under a Creative
                             <br />
                             Commons license (CC BY-NC-ND 4.0) unless otherwise stated.
                             <br />
-                            Authors retain copyright but grant IJIRE the right to publish, distribute, and archive the work.
+                            Authors retain copyright but grant INDJCST the right to publish, distribute, and archive the work.
                             <br />
                             Commercial reuse requires permission.
                         </p>
@@ -94,7 +94,7 @@ export default function TermsAndConditions() {
                     </h2>
                     <div>
                         <p className="list-disc list-inside">
-                            IJIRE follows its Privacy Policy (available on the website) in compliance with GDPR and other
+                            INDJCST follows its Privacy Policy (available on the website) in compliance with GDPR and other
                             regulations. <br />
                             Personal data (author, reviewer, editor details) is used only for journal operations.
                         </p>
@@ -105,7 +105,7 @@ export default function TermsAndConditions() {
                         6. Disclaimer of Warranties
                     </h2>
                     <p>
-                        IJIRE provides content  “as is” without warranties of accuracy or completeness. <br />
+                        INDJCST provides content  “as is” without warranties of accuracy or completeness. <br />
                         The journal is not liable for any errors, omissions, or consequences arising from published work.
                     </p>
                 </div>
@@ -115,7 +115,7 @@ export default function TermsAndConditions() {
                     </h2>
                     <div>
                         <h2>
-                            IJIRE, its editors, and affiliates are not liable for:
+                            INDJCST, its editors, and affiliates are not liable for:
                         </h2>
                         <h4>
                             Loss of data, profits, or reputation due to publication.
@@ -130,7 +130,7 @@ export default function TermsAndConditions() {
                         8. Termination of Access
                     </h2>
                     <h3>
-                        IJIRE reserves the right to suspend or terminate access for violations of these terms.
+                        INDJCST reserves the right to suspend or terminate access for violations of these terms.
                     </h3>
                 </div>
                 <div className="space-y-3">
@@ -145,7 +145,7 @@ export default function TermsAndConditions() {
                         10. Changes to Terms
                     </h2>
                     <h3>
-                        IJIRE may update these terms periodically. Continued use implies acceptance of revisions.
+                        INDJCST may update these terms periodically. Continued use implies acceptance of revisions.
                     </h3>
                 </div>
 
@@ -158,7 +158,7 @@ export default function TermsAndConditions() {
                             For inquiries, contact:
                         </li>
                         <li>
-                             International Journal of Innovative Research in Engineering (IJIRE)
+                             The Indian Journal of Computer Science and Technology (INDJCST)
                         </li>
                         <li>
                             Email: <a aria-label="link" href="mailto:editorinchief@theijire.com" className="text-accent-blue hover:underline">editorinchief@theijire.com</a>

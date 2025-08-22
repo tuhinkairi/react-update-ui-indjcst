@@ -8,13 +8,13 @@ export default function GuidePaper() {
     <article className="space-y-6 leading-relaxed xl:text-base 2xl:text-lg">
       {location ? <Titleh2>Instruction for Authors</Titleh2> : <Title>Instruction for Authors</Title>}
       <p className=" my-6">
-        International Journal of  Innovative Research in Engineering (IJIRE) is
+        International Journal of  Innovative Research in Engineering (INDJCST) is
         (Online), Bi-monthly international journal for publication of new ideas founded by
         academicians, educationist, engineers and corporate people. The research results and
         fundamental advancement are all aspects of Innovative Research in Advanced Engineering
-        & Technology and various engineering disciplines, etc. IJIRE is a scholarly open access,
+        & Technology and various engineering disciplines, etc. INDJCST is a scholarly open access,
         Single Peer Review Journal which helps to academic person as well as student community.
-        IJIRE provides the academic community and industry for the submission of original
+        INDJCST provides the academic community and industry for the submission of original
         research and applications related to Various Engineering discipline and Advanced
         Technologies by Fifth Dimension Research Publications (FDRP), Tamil Nadu, and India
         since year 2020.
@@ -34,7 +34,7 @@ export default function GuidePaper() {
         and is not under consideration for publication elsewhere. The submission should be
         approved by all the authors of the paper. If a paper is finally accepted, the authorities, where
         the work had been carried out, shall be responsible for not publishing the work elsewhere in
-        the same form. Paper, once submitted for consideration in IJIRE, cannot be withdrawn
+        the same form. Paper, once submitted for consideration in INDJCST, cannot be withdrawn
         unless the same is finally rejected.
       </p>
       <div>
@@ -93,7 +93,7 @@ export default function GuidePaper() {
           <span className="font-medium text-lg 2xl:text-xl pr-2">eCopyright:</span>  All authors will submit e-copyright to the Journal/ FDRP, India
         </p>
         <p>
-          <span className="font-medium text-lg 2xl:text-xl pr-2">Template:</span>  All accepted papers should be formatted as per IJIRE Journal
+          <span className="font-medium text-lg 2xl:text-xl pr-2">Template:</span>  All accepted papers should be formatted as per INDJCST Journal
           Template. It is be sure that contents of the paper are fine and satisfactory. Author(s)
           can make rectification in the final paper but after the final submission to the journal,
           rectification is not possible. In the formatted paper, volume no/ issue no will be in the
@@ -135,7 +135,7 @@ export default function GuidePaper() {
           at <Link aria-label="link" to={"mailto:editorinchief@theijire.com"} target="_blank" className="text-blue-500">editorinchief@theijire.com.</Link>
           <br />
           <br />
-          Paper Template of IJIRE available at <Link aria-label="link" to={"/downloads"} className="text-primary">Downloads</Link>
+          Paper Template of INDJCST available at <Link aria-label="link" to={"/downloads"} className="text-primary">Downloads</Link>
           <br />
           <br />
           <span className="font-medium text-lg 2xl:text-xl pr-2">Title Page:</span> The title page should include the name(s) of the author(s), a concise and informative title, the affiliation(s) and address of the author(s), the e-mail address of the corresponding author.
@@ -188,7 +188,7 @@ export default function GuidePaper() {
           reading the article, sponsoring the research, etc.) may be acknowledged here.
           <br />
           <span className="font-medium text-lg 2xl:text-xl pr-2">References:</span> Citation in text- Please ensure that every reference cited in the text is also present in the reference list (and vice versa). The references in the reference list
-          should follow the IJIRE reference style of the journal and citation of a reference.
+          should follow the INDJCST reference style of the journal and citation of a reference.
           Web references- As a minimum, the full URL should be given and the date when the
           reference was last accessed. Any further information, if known (DOI, author names,
           dates, reference to a source publication, etc.), should also be given. Web references
@@ -239,8 +239,8 @@ export default function GuidePaper() {
             Copyright
           </h2>
           <p>
-            Copyright of all accepted papers will belong to IJIRE and the author(s) must affirm that
-            accepted papers for publication in IJIRE must not be re-published elsewhere without the
+            Copyright of all accepted papers will belong to INDJCST and the author(s) must affirm that
+            accepted papers for publication in INDJCST must not be re-published elsewhere without the
             written consent of the editor in chief of AM Publications, India. To comply with this policy,
             authors will be required to submit a signed copy of Copyright Transfer Form, after
             acceptance of their paper, before the same is published. Copyright form available
@@ -292,7 +292,7 @@ export default function GuidePaper() {
             link will be provided in the e-mail so that the authors can download the files themselves.
             These PDF proofs can be annotated; for this you need to download Adobe Reader version 7
             (or higher) available free at get.adobe.com/reader If authors do not wish to use the PDF
-            annotations function, they may list the corrections and return them to IJIRE in an e-
+            annotations function, they may list the corrections and return them to INDJCST in an e-
             mail <Link aria-label="link" to="mailto:editorinchief@theijire.com" className="text-blue-500">editorinchief@theijire.com</Link>, Please list corrections quoting line number. If, for any reason,
             this is not possible, then mark the corrections and any other comments on a printout of the
             proof and then scan the pages having corrections and e-mail them back, within 05 days.
@@ -301,7 +301,7 @@ export default function GuidePaper() {
             accepted for publication will not be considered at this stage without prior permission. It is
             important to ensure that all corrections are sent back to us in one communication: please
             check carefully before replying, as inclusion of any subsequent corrections cannot be
-            guaranteed. Proofreading is solely authors’ responsibility. Note that IJIRE will proceed
+            guaranteed. Proofreading is solely authors’ responsibility. Note that INDJCST will proceed
             with the publication of paper, if no response is received within 05 days.
           </p>
         </div>

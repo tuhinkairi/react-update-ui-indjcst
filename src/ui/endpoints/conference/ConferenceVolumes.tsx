@@ -114,8 +114,8 @@ export default function ConferenceVolumes() {
     } else {
       fetchConferenceData().finally(() => {
         SetMetaData({
-          title: `${activeConferencePage?.year|| ConferenceYear} Volume ${activeConferencePage?.volume|| ConferenceVolume} Issue ${activeConferencePage?.issue|| ConferenceIssue} | International Journal | IJIRE`,
-          description: "Stay updated on IJIRE conferences, events, and calls for papers. Join global experts in science and technology discussions."
+          title: `${activeConferencePage?.year|| ConferenceYear} Volume ${activeConferencePage?.volume|| ConferenceVolume} Issue ${activeConferencePage?.issue|| ConferenceIssue} | International Journal | INDJCST`,
+          description: "Stay updated on INDJCST conferences, events, and calls for papers. Join global experts in science and technology discussions."
         });
         setLoadingState(false);
       });

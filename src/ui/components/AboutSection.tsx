@@ -12,11 +12,11 @@ export default function AboutSection() {
 
         {/* Text Content */}
         <div className="w-full md:w-1/2">
-          {/* <h2 className="text-3xl font-semibold text-primaryText mb-4">Welcome to IJIRE</h2> */}
-          <Title2h2>Welcome to IJIRE</Title2h2>
+          {/* <h2 className="text-3xl font-semibold text-primaryText mb-4">Welcome to INDJCST</h2> */}
+          <Title2h2>Welcome to INDJCST</Title2h2>
           <p className="text-secondaryText mb-4 text-sm xl:text-base 2xl:text-lg leading-relaxed mt-6">
-            International Journal of Innovative Research in Engineering
-            (e-ISSN:2582-8746) Bi-monthly, international peer-reviewed, open-access and Multidisciplinary
+            The Indian Journal of Computer Science and Technology
+            (e-ISSN:2583-5300) Bi-monthly, international peer-reviewed, open-access and Multidisciplinary
             online journal published for the enhancement of research in various disciplines of Science,
             Engineering & Technologies.
           </p>
@@ -24,8 +24,8 @@ export default function AboutSection() {
             International journal for publishing new ideas founded by academicians, educationists,
             engineers, and corporate people. The research results and fundamental advancement are all
             aspects of Innovative Research in Science, Engineering &amp; Technology, various engineering
-            disciplines, etc. IJIRE is a scholarly, open, accessible, Peer Review Journal that helps an
-            academic person and student community. IJIRE provides the academic community and
+            disciplines, etc. INDJCST is a scholarly, open, accessible, Peer Review Journal that helps an
+            academic person and student community. INDJCST provides the academic community and
             industry for submitting original research and applications related to Various Engineering
             disciplines and Innovative Technologies.
           </p>

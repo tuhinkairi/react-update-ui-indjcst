@@ -8,13 +8,13 @@ export default function RefundPolicy() {
             <article className="xl:text-base 2xl:text-lg space-y-6 px-0 bg-white">
 
                 <Title>Return and Refund Policy</Title>
-                <h2>International Journal of Innovative Research in Engineering (IJIRE)</h2>
+                <h2>The Indian Journal of Computer Science and Technology (INDJCST)</h2>
                 <div className="space-y-3">
                     <h2 className="text-lg md:text-xl font-semibold">
                         1. General Policy
                     </h2>
                     <p>
-                        IJIRE operates as an open-access academic journal with Article Processing Charges
+                        INDJCST operates as an open-access academic journal with Article Processing Charges
                         (APCs). Due to the digital nature of our publications and the costs associated with peer review,
                         editing, and hosting, we maintain a strict no-refund policy in most cases.
                     </p>
@@ -39,7 +39,7 @@ export default function RefundPolicy() {
                         3. Fees &Payments
                     </h2>
                     <h3>
-                        IJIRE primarily follows an open-access model, but if any paid subscriptions/memberships
+                        INDJCST primarily follows an open-access model, but if any paid subscriptions/memberships
                         are offered:
                     </h3>
                     <h4>
@@ -56,7 +56,7 @@ export default function RefundPolicy() {
                     </h2>
                     <div>
                         <p className="">
-                            IJIRE may provide fee waivers for authors from low-income countries or under special
+                            INDJCST may provide fee waivers for authors from low-income countries or under special
                             circumstances. <br />
                             Waiver requests must be submitted before payment.
                         </p>
@@ -72,7 +72,7 @@ export default function RefundPolicy() {
                             For refund inquiries, contact:
                         </li>
                         <li>
-                            International Journal of Innovative Research in Engineering (IJIRE)
+                            The Indian Journal of Computer Science and Technology (INDJCST)
                         </li>
                         <li>
                             Email: <a aria-label="link" href="mailto:editorinchief@theijire.com" className="text-accent-blue hover:underline">editorinchief@theijire.com</a>

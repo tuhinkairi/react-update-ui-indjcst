@@ -94,7 +94,7 @@ export default function Footer() {
             {/* Copyright and Licensing */}
             <div className="text-center w-fit mx-auto">
               <p className="text-sm 2xl:text-base text-gray-600 mb-2">
-                Copyright © 2025 IJIRE Published by Fifth Dimension research Publication (P) Ltd. All Rights Reserved.
+                Copyright © 2025 INDJCST Published by Fifth Dimension research Publication (P) Ltd. All Rights Reserved.
               </p>
               <p className="text-sm 2xl:text-base text-gray-600">
                 Work is licensed under a Creative Commons Attribution 4.0 International License.
@@ -112,30 +112,30 @@ export default function Footer() {
 
             {/* Social Media Icons */}
             <div className="flex xl:hidden space-x-4 mx-auto lg:mx-0 lg:absolute right-0">
-              <Link aria-label='got to Twitter of IJIRE' to="#" className="text-gray-400 hover:text-gray-500">
+              <Link aria-label='got to Twitter of INDJCST' to="#" className="text-gray-400 hover:text-gray-500">
                 <Twitter size={20} />
               </Link>
-              <Link aria-label='got to Facebook of IJIRE' to="#" className="text-gray-400 hover:text-gray-500">
+              <Link aria-label='got to Facebook of INDJCST' to="#" className="text-gray-400 hover:text-gray-500">
                 <Facebook size={20} />
               </Link>
-              <Link aria-label='got to Instagram of IJIRE' to="#" className="text-gray-400 hover:text-gray-500">
+              <Link aria-label='got to Instagram of INDJCST' to="#" className="text-gray-400 hover:text-gray-500">
                 <Instagram size={20} />
               </Link>
-              <Link aria-label='got to Linkedin of IJIRE' to="#" className="text-gray-400 hover:text-gray-500">
+              <Link aria-label='got to Linkedin of INDJCST' to="#" className="text-gray-400 hover:text-gray-500">
                 <Linkedin size={20} />
               </Link>
             </div>
             <div className="hidden xl:flex space-x-4 mx-auto lg:mx-0 lg:absolute right-0 top-1">
-              <Link aria-label='got to Twitter of IJIRE' to="#" className="text-gray-400 hover:text-gray-500">
+              <Link aria-label='got to Twitter of INDJCST' to="#" className="text-gray-400 hover:text-gray-500">
                 <Twitter size={26} />
               </Link>
-              <Link aria-label='got to Facebook of IJIRE' to="#" className="text-gray-400 hover:text-gray-500">
+              <Link aria-label='got to Facebook of INDJCST' to="#" className="text-gray-400 hover:text-gray-500">
                 <Facebook size={26} />
               </Link>
-              <Link aria-label='got to Instagram of IJIRE' to="#" className="text-gray-400 hover:text-gray-500">
+              <Link aria-label='got to Instagram of INDJCST' to="#" className="text-gray-400 hover:text-gray-500">
                 <Instagram size={26} />
               </Link>
-              <Link aria-label='got to Linkedin of IJIRE' to="#" className="text-gray-400 hover:text-gray-500">
+              <Link aria-label='got to Linkedin of INDJCST' to="#" className="text-gray-400 hover:text-gray-500">
                 <Linkedin size={26} />
               </Link>
             </div>

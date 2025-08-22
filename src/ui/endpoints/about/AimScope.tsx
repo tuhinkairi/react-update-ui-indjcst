@@ -8,7 +8,7 @@ const AimScope = () => {
       <section>
         <Title2>Aim</Title2>
         <p className=" leading-relaxed text-gray-600">
-          The International Journal of Innovative Research in Engineering (IJIRE) is an international journal dedicated to the latest advancements in engineering and technology. This journal aims to provide a platform for scientists and academicians worldwide to promote, share, and discuss various new issues and developments in different areas of engineering and technologies.
+          The The Indian Journal of Computer Science and Technology (INDJCST) is an international journal dedicated to the latest advancements in engineering and technology. This journal aims to provide a platform for scientists and academicians worldwide to promote, share, and discuss various new issues and developments in different areas of engineering and technologies.
         </p>
       </section>
 
@@ -19,7 +19,7 @@ const AimScope = () => {
           The journal's scope is to provide an academic medium and an essential reference for advancing and disseminating research results that support high-level learning, teaching, and research in engineering & technology. We bring together scientists, academicians, engineers, scholars, and students of related fields.
         </p>
         <p className="leading-relaxed text-gray-600">
-          The International Journal of Innovative Research in Engineering (IJIRE) is an open-access, peer-reviewed multidisciplinary publication that offers authors a worldwide platform to share their research articles online. IJIRE adheres to an open-access paradigm that allows for the unrestricted sharing of research papers to the global community via the internet. All articles released under open access can be viewed freely.
+          The The Indian Journal of Computer Science and Technology (INDJCST) is an open-access, peer-reviewed multidisciplinary publication that offers authors a worldwide platform to share their research articles online. INDJCST adheres to an open-access paradigm that allows for the unrestricted sharing of research papers to the global community via the internet. All articles released under open access can be viewed freely.
         </p>
       </section>
     </div>

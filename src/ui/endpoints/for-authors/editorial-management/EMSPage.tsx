@@ -28,7 +28,7 @@ export default function EMSPage() {
                     <div className="image flex flex-col gap-8 justify-center">
                         <img loading='lazy'
                             src="/EMS/EMS1.webp" alt="submit article image" />
-                        <iframe loading="lazy" height="210" src="https://www.youtube.com/embed/okLj9H5dZbI" title="IJIRE _Article Submission" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
+                        <iframe loading="lazy" height="210" src="https://www.youtube.com/embed/okLj9H5dZbI" title="INDJCST _Article Submission" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
                     </div>
                 </div>
                 <hr className="text-gray-300" />
@@ -37,7 +37,7 @@ export default function EMSPage() {
                         <img loading='lazy'
                             src="/EMS/EMS2.webp" alt=" Author can know task Process image" />
                         <div className="image grid gap-4">
-                            <iframe loading="lazy" height="210" className="w-full" src="https://www.youtube.com/embed/WiJSjpbj2Ns" title="IJIRE _ Article Review &amp; Acceptance" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+                            <iframe loading="lazy" height="210" className="w-full" src="https://www.youtube.com/embed/WiJSjpbj2Ns" title="INDJCST _ Article Review &amp; Acceptance" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
                         </div>
                     </div>
                     <div className="textsection space-y-4">
@@ -129,7 +129,7 @@ export default function EMSPage() {
                         <img loading='lazy'
                             src="/EMS/EMS6.webp" alt="Copyright Form image" />
                         <div className="image grid gap-4">
-                            <iframe height={210} className="w-full" loading="lazy" src="https://www.youtube.com/embed/RUtHKw7v4II" title="IJIRE _ Article Final Submission &amp; Publish" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+                            <iframe height={210} className="w-full" loading="lazy" src="https://www.youtube.com/embed/RUtHKw7v4II" title="INDJCST _ Article Final Submission &amp; Publish" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
                         </div>
                     </div>
 

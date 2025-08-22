@@ -4,30 +4,30 @@ import Title from "../../../other/Title";
 const ConferenceProcedings = () => {
     return (
         <CommonLayout className="bg-white px-0 sm:px-6 pb-6  mx-auto space-y-10 text-base leading-8 text-[#333333]">
-            <Title>Conference Proceedings - IJIRE</Title>
+            <Title>Conference Proceedings - INDJCST</Title>
             <p className="">
-                Here is a detailed explanation of the full conference collaboration procedure with IJIRE (International Journal of Innovative Research in Engineering - e-ISSN: 2582-8746), along with the purpose, roles, process flow, and post-conference services, FAQ's.
+                Here is a detailed explanation of the full conference collaboration procedure with INDJCST (The Indian Journal of Computer Science and Technology - e-ISSN: 2583-5300), along with the purpose, roles, process flow, and post-conference services, FAQ's.
             </p>
             
             <div className="section-1 space-y-6">
                 <h2 className="text-xl font-semibold text-primary">
-                    About IJIRE
+                    About INDJCST
                 </h2>
                 <p>
-                    IJIRE is a reputed bi-monthly, peer-reviewed, open-access, international multidisciplinary journal that follows UGC-CARE guidelines. It is ideal for engineering researchers, academicians, and Ph.D. scholars to publish high-quality papers.
-                    As part of its mission to promote global research, IJIRE welcomes conference collaborations to support institutions, colleges, and universities in publishing selected conference papers through a structured, ethical, and fast-track process.
+                    INDJCST is a reputed bi-monthly, peer-reviewed, open-access, international multidisciplinary journal that follows UGC-CARE guidelines. It is ideal for engineering researchers, academicians, and Ph.D. scholars to publish high-quality papers.
+                    As part of its mission to promote global research, INDJCST welcomes conference collaborations to support institutions, colleges, and universities in publishing selected conference papers through a structured, ethical, and fast-track process.
                 </p>
             </div>
 
             <div className="section-2 space-y-6">
                 <h3 className="text-xl font-semibold text-primary">
-                    Full Procedure to Apply for Conference Collaboration with IJIRE
+                    Full Procedure to Apply for Conference Collaboration with INDJCST
                 </h3>
                 <ol className="list-decimal space-y-6 ml-6">
                     <li>
                         <h2 className="text-xl mb-2 font-semibold">✅ STEP 1: Send Conference Proposal (Initial Contact)</h2>
                         <p className="mb-3">
-                            <span className="font-semibold">What to Do:</span> The organizing committee must draft a formal email proposal and send it to IJIRE's editorial office. This proposal should include:
+                            <span className="font-semibold">What to Do:</span> The organizing committee must draft a formal email proposal and send it to INDJCST's editorial office. This proposal should include:
                         </p>
                         <h4 className="font-semibold mb-2">📄 Details Required:</h4>
                         <ul className="list-disc ml-5 mt-1 space-y-1">
@@ -54,7 +54,7 @@ const ConferenceProcedings = () => {
                     <li>
                         <h2 className="text-xl mb-2 font-semibold">✅ STEP 2: Proposal Evaluation & Editorial Approval</h2>
                         <p className="mb-2">Once your email is received:</p>
-                        <p className="mb-2">The Editorial Board at IJIRE will carefully review the proposal for:</p>
+                        <p className="mb-2">The Editorial Board at INDJCST will carefully review the proposal for:</p>
                         <ul className="list-disc ml-5 mt-1 space-y-1">
                             <li>Academic value</li>
                             <li>Scope alignment with the journal</li>
@@ -88,7 +88,7 @@ const ConferenceProcedings = () => {
 
                     <li>
                         <h2 className="text-xl mb-2 font-semibold">✅ STEP 4: Paper Submission & Review Process</h2>
-                        <p className="mb-2">The Conference Committee must ensure authors follow IJIRE's submission format.</p>
+                        <p className="mb-2">The Conference Committee must ensure authors follow INDJCST's submission format.</p>
                         <h4 className="font-semibold mb-2">📂 Submission Guidelines:</h4>
                         <ul className="list-disc ml-5 mt-1 space-y-1">
                             <li>Title, Abstract, Keywords, and References</li>
@@ -99,7 +99,7 @@ const ConferenceProcedings = () => {
                         <h4 className="font-semibold mb-2 mt-3">Review Options:</h4>
                         <ul className="list-disc ml-5 mt-1 space-y-1">
                             <li><span className="font-semibold">Option A:</span> Conference Committee reviews and sends only accepted papers.</li>
-                            <li><span className="font-semibold">Option B:</span> IJIRE arranges peer-review through its panel.</li>
+                            <li><span className="font-semibold">Option B:</span> INDJCST arranges peer-review through its panel.</li>
                         </ul>
                         <p className="mt-2 mb-2">Each paper undergoes:</p>
                         <ul className="list-disc ml-5 mt-1 space-y-1">
@@ -120,7 +120,7 @@ const ConferenceProcedings = () => {
                             <li>e-Certificate of Publication</li>
                             <li>DOI (Digital Object Identifier)</li>
                             <li>Open-access indexing (Google Scholar, CrossRef, ResearchGate, etc.)</li>
-                            <li>Journal issue with e-ISSN: 2582-8746</li>
+                            <li>Journal issue with e-ISSN: 2583-5300</li>
                         </ul>
                         <p className="mt-2"><span className="font-semibold">📢 Timeline:</span> Publication within 5–10 days after final approval.</p>
                     </li>
@@ -129,7 +129,7 @@ const ConferenceProcedings = () => {
                         <h2 className="text-xl mb-2 font-semibold">✅ STEP 6: Post-Publication Support</h2>
                         <p className="mb-2">After publication:</p>
                         <ul className="list-disc ml-5 mt-1 space-y-1">
-                            <li>IJIRE provides a final report with a list of articles, authors, and DOIs.</li>
+                            <li>INDJCST provides a final report with a list of articles, authors, and DOIs.</li>
                             <li>The journal acknowledges the conference and institution name on the website (optional).</li>
                             <li>If required, journal staff can support paper presentations or Q&A sessions during the conference.</li>
                         </ul>
@@ -139,7 +139,7 @@ const ConferenceProcedings = () => {
 
             <div className="section-3 space-y-6">
                 <h3 className="text-xl font-semibold text-primary">
-                    🎁 Why Collaborate with IJIRE?
+                    🎁 Why Collaborate with INDJCST?
                 </h3>
                 <div className="overflow-x-auto">
                     <table className="w-full border-collapse border border-gray-300">
@@ -189,20 +189,20 @@ const ConferenceProcedings = () => {
 
             <div className="section-4 space-y-6">
                 <h3 className="text-xl font-semibold text-primary">
-                    IJIRE Conference Collaboration – FAQ's
+                    INDJCST Conference Collaboration – FAQ's
                 </h3>
                 <ul className="space-y-6 list-inside">
                     <li>
-                        <h2 className="text-xl mb-2 font-semibold inline-block">1. What is the benefit of collaborating with IJIRE for our conference?</h2>
-                        <p>IJIRE offers fast, peer-reviewed publication of selected conference papers with DOI, indexing, and open-access features. It enhances your event's academic value and provides global visibility to researchers through an international journal that follows UGC-CARE guidelines.</p>
+                        <h2 className="text-xl mb-2 font-semibold inline-block">1. What is the benefit of collaborating with INDJCST for our conference?</h2>
+                        <p>INDJCST offers fast, peer-reviewed publication of selected conference papers with DOI, indexing, and open-access features. It enhances your event's academic value and provides global visibility to researchers through an international journal that follows UGC-CARE guidelines.</p>
                     </li>
                     <li>
                         <h2 className="text-xl mb-2 font-semibold inline-block">2. Is there a formal agreement or MOU required?</h2>
                         <p>Yes. After the proposal is accepted, a Memorandum of Understanding (MOU) will be shared that clearly defines roles, responsibilities, timelines, and the publication process. Both parties must sign it to begin the collaboration officially.</p>
                     </li>
                     <li>
-                        <h2 className="text-xl mb-2 font-semibold inline-block">3. Can our conference participants publish in IJIRE at a discounted rate?</h2>
-                        <p>Yes. IJIRE offers special discounted publication fees for conference participants when submitted through the conference committee. The exact fee depends on the number of papers and scope of collaboration.</p>
+                        <h2 className="text-xl mb-2 font-semibold inline-block">3. Can our conference participants publish in INDJCST at a discounted rate?</h2>
+                        <p>Yes. INDJCST offers special discounted publication fees for conference participants when submitted through the conference committee. The exact fee depends on the number of papers and scope of collaboration.</p>
                     </li>
                     <li>
                         <h2 className="text-xl mb-2 font-semibold inline-block">4. Do authors receive certificates and DOI for their published papers?</h2>
@@ -214,19 +214,19 @@ const ConferenceProcedings = () => {
                     </li>
                     <li>
                         <h2 className="text-xl mb-2 font-semibold inline-block">6. Who handles the peer-review of submitted papers?</h2>
-                        <p>There are two options: The conference committee can review and send only selected papers. OR, IJIRE can perform independent peer review through its editorial board. You may choose either or both options as per the MOU.</p>
+                        <p>There are two options: The conference committee can review and send only selected papers. OR, INDJCST can perform independent peer review through its editorial board. You may choose either or both options as per the MOU.</p>
                     </li>
                     <li>
                         <h2 className="text-xl mb-2 font-semibold inline-block">7. What is the plagiarism policy?</h2>
-                        <p>IJIRE strictly follows an anti-plagiarism policy. All papers must have <span className="font-semibold">less than 20% similarity</span> as per tools like Turnitin, iThenticate, or equivalent. Plagiarized or duplicate content will be rejected.</p>
+                        <p>INDJCST strictly follows an anti-plagiarism policy. All papers must have <span className="font-semibold">less than 20% similarity</span> as per tools like Turnitin, iThenticate, or equivalent. Plagiarized or duplicate content will be rejected.</p>
                     </li>
                     <li>
                         <h2 className="text-xl mb-2 font-semibold inline-block">8. In which format should the papers be submitted?</h2>
-                        <p>Authors must submit their papers in <span className="font-semibold">MS Word (.doc or .docx)</span> format following IJIRE guidelines, including: Title, Abstract, Keywords, Structured content (Introduction, Methodology, Results, Conclusion), Proper citations and references (IEEE or APA). The template is provided upon approval.</p>
+                        <p>Authors must submit their papers in <span className="font-semibold">MS Word (.doc or .docx)</span> format following INDJCST guidelines, including: Title, Abstract, Keywords, Structured content (Introduction, Methodology, Results, Conclusion), Proper citations and references (IEEE or APA). The template is provided upon approval.</p>
                     </li>
                     <li>
                         <h2 className="text-xl mb-2 font-semibold inline-block">9. Can we publish papers from all engineering branches and science streams?</h2>
-                        <p>Yes. IJIRE is a multidisciplinary journal, accepting papers from: Engineering (All branches), Technology (All branches), Applied Sciences, Mathematics, Physics, AI, etc.</p>
+                        <p>Yes. INDJCST is a multidisciplinary journal, accepting papers from: Engineering (All branches), Technology (All branches), Applied Sciences, Mathematics, Physics, AI, etc.</p>
                     </li>
                     <li>
                         <h2 className="text-xl mb-2 font-semibold inline-block">10. How can we track the status of our collaboration or published papers?</h2>
@@ -234,19 +234,19 @@ const ConferenceProcedings = () => {
                     </li>
                     <li>
                         <h2 className="text-xl mb-2 font-semibold inline-block">11. Is there a minimum number of papers required for collaboration?</h2>
-                        <p>While there is no strict minimum, collaborations are usually preferred for conferences submitting <span className="font-semibold">10 or more papers</span>. However, IJIRE can support even smaller events based on quality and relevance.</p>
+                        <p>While there is no strict minimum, collaborations are usually preferred for conferences submitting <span className="font-semibold">10 or more papers</span>. However, INDJCST can support even smaller events based on quality and relevance.</p>
                     </li>
                     <li>
-                        <h2 className="text-xl mb-2 font-semibold inline-block">12. What kind of support does IJIRE provide during the conference?</h2>
-                        <p>IJIRE can provide: Publication Support, Plagiarism Checks, Speaker Support (if requested), Digital Certificates, Live Session Participation or Q&A support (subject to availability).</p>
+                        <h2 className="text-xl mb-2 font-semibold inline-block">12. What kind of support does INDJCST provide during the conference?</h2>
+                        <p>INDJCST can provide: Publication Support, Plagiarism Checks, Speaker Support (if requested), Digital Certificates, Live Session Participation or Q&A support (subject to availability).</p>
                     </li>
                     <li>
-                        <h2 className="text-xl mb-2 font-semibold inline-block">13. Can we add IJIRE as a publication partner on our brochure/website?</h2>
-                        <p>Yes. Once your proposal is approved, you can officially use the IJIRE logo and name on your conference promotional materials, brochures, and website as a publication partner.</p>
+                        <h2 className="text-xl mb-2 font-semibold inline-block">13. Can we add INDJCST as a publication partner on our brochure/website?</h2>
+                        <p>Yes. Once your proposal is approved, you can officially use the INDJCST logo and name on your conference promotional materials, brochures, and website as a publication partner.</p>
                     </li>
                     <li>
                         <h2 className="text-xl mb-2 font-semibold inline-block">14. Whom should we contact for further communication or emergency support?</h2>
-                        <p>You can reach IJIRE via:<br />
+                        <p>You can reach INDJCST via:<br />
                         📧 Email: <a aria-label="link" href="mailto:editorinchief@theijire.com" className="text-accent-blue hover:underline">editorinchief@theijire.com</a>, <a aria-label="link" href="mailto:support@fdrpjournals.org" className="text-accent-blue hover:underline">support@fdrpjournals.org</a><br />
                         📱 WhatsApp / Call: +91-9840521421<br />
                         🌐 Website: www.theijire.com</p>
