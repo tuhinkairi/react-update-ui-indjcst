@@ -12,9 +12,7 @@ export default function PublicationContent() {
             <div className="space-y-3">
                 <h4 className="font-semibold text-lg 2xl:text-xl">Journal publishing ethics rules:</h4>
                 <p>
-                    International Journal of Innovative Research in
-                    Engineering (INDJCST) is committed to ensuring ethics in the publication and quality of articles. International Journal of Innovative Research in
-                    Engineering (INDJCST) follows the Code of Conduct as defined by the Committee of Publication Ethics (COPE). {<Link aria-label="link" to="https://publicationethics.org/membership/code-of-conduct" className="text-accent-blue" target='_blank'>https://publicationethics.org/membership/code-of-conduct</Link>}.
+                    Indian Journal of Computer Science and Technology (INDJCST) is committed to ensuring ethics in the publication and quality of articles. Indian Journal of Computer Science and Technology (INDJCST) follows the Code of Conduct as defined by the Committee of Publication Ethics (COPE). {<Link aria-label="link" to="https://publicationethics.org/files/u2/New_Code.pdf" className="text-accent-blue" target='_blank'>https://publicationethics.org/files/u2/New_Code.pdf</Link>}.
                     These ethics include the editor following specific rules on relations with readers, authors, and reviewers and procedures for handling complaints. Conformance to standards of ethical behavior is therefore expected of all parties involved: Authors, Editors, Reviewers, and the Publisher. In particular.
                 </p>
             </div>
