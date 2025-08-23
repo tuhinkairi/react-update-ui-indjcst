@@ -2,19 +2,19 @@ import { Link } from "react-router-dom";
 
 const publications = [
   {
-    title: 'Unmasking the Android Scam in Apps: Tactics, Ecosystem and Threats',
-    id: '966',
-    ink: "/archives/paper-details?paperid=966&papertitle=Unmasking-the-Android-Scam-in-Apps%3A-Tactics%2C-Ecosystem-and-Threats"
+    title: 'Implementation Paper on Contactless Heart-Beat Detection Using Image Processing',
+    id: '146',
+    ink: "/archives/paper-details?paperid=146&papertitle=Implementation-Paper-on-Contactless-Heart-Beat-Detection-Using-Image-Processing"
   },
   {
-    title: 'Crystal shield Email Attachment Protection System',
-    id: '967',
-    ink: "/archives/paper-details?paperid=967&papertitle=Crystal-shield-Email-Attachment-Protection-System"
+    title: 'Genius AI: A Survey on Empowering Next-Generation Content Creation with API-Driven Models',
+    id: '147',
+    ink: "/archives/paper-details?paperid=147&papertitle=Genius-AI%3A-A-Survey-on-Empowering-Next-Generation-Content-Creation-with-API-Driven-Models"
   },
   {
-    title: 'Investigation and Optimization of Perovskite Solar Cells with an Approach to Reducing Optical Losses and Enhancing Stability and Efficiency',
-    id: '968',
-    ink: "/archives/paper-details?paperid=968&papertitle=Investigation-and-Optimization-of-Perovskite-Solar-Cells-with-an-Approach-to-Reducing-Optical-Losses-and-Enhancing-Stability-and-Efficiency"
+    title: 'ITipy Do – A Digital Tipping Platform',
+    id: '148',
+    ink: "/archives/paper-details?paperid=148&papertitle=Tipy-Do-%E2%80%93-A-Digital-Tipping-Platform"
   },
 ];
 
