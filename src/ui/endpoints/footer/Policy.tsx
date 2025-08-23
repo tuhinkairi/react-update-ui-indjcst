@@ -197,7 +197,7 @@ export default function Policy() {
                     </h2>
                     <ul>
                         <li>For privacy-related inquiries, contact:</li>
-                        <li>International Journal Of Scientific Research In Engineering & Technology</li>
+                        <li>Indian Journal of Computer Science and Technology</li>
                         <li>editorinchief@indjcst.com</li>
                         <li>Publisher:</li>
                         <li>Fifth Dimension research Publication (P) Ltd.</li>

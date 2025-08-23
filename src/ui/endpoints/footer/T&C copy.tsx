@@ -30,12 +30,12 @@ export default function TermsAndConditions() {
 
                             a. Author Responsibilities
                         </h3>
-                        <p>
-                            Submissions must be original, unpublished, and not under consideration elsewhere.
-                            Authors must ensure ethical compliance (no plagiarism, data fabrication, or falsification).
-                            Proper attribution to prior work must be provided.
-                            All co-authors must consent to submission.
-                        </p>
+                        <ul>
+                            <li>Submissions must be original, unpublished, and not under consideration elsewhere.</li>
+                            <li>Authors must ensure ethical compliance (no plagiarism, data fabrication, or falsification).</li>
+                            <li>Proper attribution to prior work must be provided.</li>
+                            <li>All co-authors must consent to submission.</li>
+                        </ul>
 
                     </div>
                     <div>
