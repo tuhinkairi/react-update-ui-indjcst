@@ -84,7 +84,7 @@ const BlogShow = () => {
 
   return (
     <MetaDataWrapper desciptionDynamic={data?.meta_description?.split(".")[0] ?? 'Blog Details'} titleDynamic={data?.title ?? slug}>
-      <CommonLayout className='space-y-6' title={path.includes("Blog")?"Blog":"Tag"}>
+      <CommonLayout className='space-y-6' title={path.includes("blogs")?"Blog":"Tag"}>
         <JournalOverview
           category={data?.category ?? ""}
           title={data?.title ?? ""}
