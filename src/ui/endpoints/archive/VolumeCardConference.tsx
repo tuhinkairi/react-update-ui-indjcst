@@ -6,7 +6,7 @@ import { ImQuotesRight } from "react-icons/im";
 import PrimaryBtn from "../../components/Btns/PrimaryBtn";
 
 export default function VolumeCardConference({ paper, setActive, navigate }: { paper: ConferenceArticleProps, setActive: (arg: ConferenceArticleProps) => void, navigate: NavigateFunction }) {
-    const endpoint = `/conference/paper-details?paperid=${paper.id}&papertitle=${encodeURIComponent(paper.title.replace(/ /g, "-"))}`
+    const endpoint = `/conference/paper-details?paperid=${paper.id}&papertitle=${encodeURIComponent(paper.title.replace(/[^a-zA-Z0-9]+/g, "-").replace(/-+/g, "-").replace(/^-|-$/g, "").toLowerCase())}`
     const HandleGoolge = () => {
         window.open(`https://www.google.com/search?q=${encodeURIComponent(paper.title)}`, '_blank')
     }
