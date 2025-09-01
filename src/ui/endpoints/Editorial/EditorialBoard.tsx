@@ -109,7 +109,7 @@ const EditorBoard = () => {
                             name="Dr. S. Sivaganesan"
                             designation="Professor, Department of Electrical & Electronics Engineering."
                             organization="Holymary Institute of Technology & Science.  Hyderabad-501301.India"
-                            email="editorinchief@ijrtmr.com, sivaganesan@hmgi.ac.in"
+                            email="editorinchief@ijrtmr.com"
                         />
                         <ContactCard
                             role="Managing Editor :"
