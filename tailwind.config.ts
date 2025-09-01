@@ -23,7 +23,7 @@ const config: Config = {
         dark: '#1A1A1A',            // Deep black text
         primary_bg: '#f9f9f9',       // Background sections
         divider: '#A52A2A',         // Dividers, outlines
-        primaryText: '#A52A2A',        // Base paragraph text
+        primaryText: '#333333',        // Base paragraph text
         secondaryText: '#6B7280',           // Secondary text (gray-600)
         paragraph: '#6B7280',           // Secondary text (gray-600)
         whiteText: '#FFFFFF',           // White (default)

@@ -151,7 +151,7 @@ const ThesisDetails = () => {
                 <VscFilePdf size={18} className="ml-4" />
               </PrimaryBtn>
             </Link>
-             <Link aria-label="link" to="https://www.google.com/search?vsrid=COOX4YXQ3LTLOBACGAEiJDBiZDliZDNjLTFmOTMtNDEzYS1iMDc3LWJiYjBkNTU4NjVkNjIGIgJ0cCgXOKSW2vqQ3Y4D&vsint=CAIqDAoCCAcSAggKGAEgAToiChYNAAAAPxUAAAA_HQAAgD8lAACAPzABEPsDGGMlAACAPw&udm=26&lns_mode=un&source=lns.web.gisivli&vsdim=507,99&gsessionid=MEe5nLFgKkpw61lPRzTizbLuDmFtyOpy_alFhg2WyJag7KJrm3nngw&lsessionid=W5ZeX3DIvGZGjgwH9J6Krc-Z7ADog1IXWZ5n5ckps_pGHgh9XrH9ZA&lns_surface=19&authuser=0&qsubts=1753622518509&biw=375&bih=631&ved=2ahUKEwiq99nwkN2OAxVOxzgGHaIZLOEQh6cGegUI3gMQGg&tbnid=VrqyejqFWaGG5M&ictx=2#imgrc=c33bqrBnl_OOQM&imgdii=Yuf27tXGSk4KgM" className="hover:scale-105 transition-all text-dark rounded-md font-semibold flex items-center justify-center space-x-3 text-sm xl:text-base 2xl:text-lg">
+             <Link aria-label="link" to="#" className="hover:scale-105 transition-all text-dark rounded-md font-semibold flex items-center justify-center space-x-3 text-sm xl:text-base 2xl:text-lg">
               <img loading="lazy" src="/checkupdate.webp" alt=" check update" width={180} />
             </Link>
           </div>

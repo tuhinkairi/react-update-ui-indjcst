@@ -79,8 +79,8 @@ export default function AuthorProfile({ member }: { member: EditorialMember | nu
               <span className="text-primary font-medium">{pub.doi}</span>
             </p>
           </div> */}
-        {member.member_publication ? member.member_publication.split(".").map((pub, idx) => (
-          pub.trim().length > 50 && (
+        {member.member_publication ? member.member_publication.split("[").map((pub, idx) => (
+          pub.trim().length  && (
             <ul key={idx} className="flex items-start gap-2 list-inside list-decimal text-shadow">
               <li>
                 {pub}.
