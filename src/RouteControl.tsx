@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Routes} from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import Page404 from "./ui/components/layout/Page404";
 import MetaDataWrapper from "./ui/components/layout/MetaDataWrapper";
 import ArchiveVolumes2 from "./ui/endpoints/archive/ArchiveVolumes2";
@@ -11,7 +11,17 @@ import RefundPolicy from "./ui/endpoints/footer/RefundPolicy";
 import ConferenceProcedings from "./ui/endpoints/conference/conference-procedings/ConferenceProcedings";
 import JournalParticularsContainer from "./ui/endpoints/about/journal-particulers/JournalParticularsContainer";
 import TermsAndConditions from "./ui/endpoints/footer/T&C copy";
-const ThesisDetails= React.lazy(()=>import("./ui/endpoints/Thesis/ThesisDetails"));
+import Top10CSEJournals from "./ui/endpoints/external/Top10CSEJournals";
+import BestComputerScienceJournals from "./ui/endpoints/external/BestComputerScienceJournals";
+import FastPublicationComputerScienceJournalsList from "./ui/endpoints/external/FastPublicationComputerScienceJournalsList";
+import FastPublishingComputerScienceJournals from "./ui/endpoints/external/FastPublishingComputerScienceJournals";
+import TopComputerScienceJournalsList from "./ui/endpoints/external/TopComputerScienceJournalsList";
+import TopComputerScienceJournals from "./ui/endpoints/external/TopComputerScienceJournals";
+import CseJournalTopComputerScienceJournalsInIndiaIndjcst from "./ui/endpoints/external/CseJournalTopComputerScienceJournalsInIndiaIndjcst";
+import CseJournalLowCostComputerScienceJournalsInIndiaIndjcst from "./ui/endpoints/external/CseJournalLowCostComputerScienceJournalsInIndiaIndjcst";
+import CseJournalGoogleScholarComputerScienceJournalsListIndjcst from "./ui/endpoints/external/CseJournalGoogleScholarComputerScienceJournalsListIndjcst";
+import CseJournalForComputerScienceResearchIndjcst from "./ui/endpoints/external/CseJournalForComputerScienceResearchIndjcst";
+const ThesisDetails = React.lazy(() => import("./ui/endpoints/Thesis/ThesisDetails"));
 const Home = React.lazy(() => import("./ui/endpoints/home/Home"));
 const Archives = React.lazy(() => import("./ui/endpoints/archive/Archives"));
 const ArchiveFirst = React.lazy(() => import("./ui/endpoints/archive/sections/ArchiveFirst"));
@@ -49,6 +59,58 @@ export default function RouteControl() {
     return (
         <Routes>
             <Route path="/" loader={true} element={<MetaDataWrapper><Home /></MetaDataWrapper>} />
+            {/* external */}
+            <Route
+                path="/top-10-journals-in-computer-science"
+                loader={true}
+                element={<Top10CSEJournals />}
+            />
+            <Route
+                path="/best-computer-science-journals"
+                loader={true}
+                element={<BestComputerScienceJournals />}
+            />
+            <Route
+                path="/fast-publication-computer-science-journals-list"
+                loader={true}
+                element={<FastPublicationComputerScienceJournalsList />}
+            />
+            <Route
+                path="/fast-publishing-computer-science-journals"
+                loader={true}
+                element={<FastPublishingComputerScienceJournals />}
+            />
+            <Route
+                path="/top-computer-science-journals-list"
+                loader={true}
+                element={<TopComputerScienceJournalsList />}
+            />
+            <Route
+                path="/top-computer-science-journals"
+                loader={true}
+                element={<TopComputerScienceJournals />}
+            />
+            <Route
+                path="/top-computer-science-journals-in-india"
+                loader={true}
+                element={<CseJournalTopComputerScienceJournalsInIndiaIndjcst />}
+            />
+            <Route
+                path="/low-cost-computer-science-journals-in-india"
+                loader={true}
+                element={<CseJournalLowCostComputerScienceJournalsInIndiaIndjcst />}
+            />
+            <Route
+                path="/google-scholar-computer-science-journals-list"
+                loader={true}
+                element={<CseJournalGoogleScholarComputerScienceJournalsListIndjcst />}
+            />
+            <Route
+                path="/journal-for-computer-science-research"
+                loader={true}
+                element={<CseJournalForComputerScienceResearchIndjcst />}
+            />
+
             {/* <Route path="/for-authors" element={<>comming soon</>} /> */}
             <Route path="/blogs" loader={true} element={<MetaDataWrapper><Blog /></MetaDataWrapper>} />
             <Route path="/blogs/:slug" element={<BlogShow />} />
@@ -58,14 +120,14 @@ export default function RouteControl() {
             <Route path="/publications" element={<MetaDataWrapper><ThesisIndex /></MetaDataWrapper>} />
             <Route path="/thesis" element={<MetaDataWrapper><Thesis /></MetaDataWrapper>}>
                 <Route index element={<ArchiveFirst />} />
-                <Route path="paperlist" element={<ThesisVolumes/>} />
+                <Route path="paperlist" element={<ThesisVolumes />} />
                 <Route path="paper-details" element={<ThesisDetails />} />
             </Route>
 
             {/* current issue */}
             <Route path="/current-issue" element={<MetaDataWrapper><Archives /></MetaDataWrapper>}>
                 <Route index element={<ArchiveFirst />} />
-                <Route path="paperlist" element={<CurrentIssueVolumes/>} />
+                <Route path="paperlist" element={<CurrentIssueVolumes />} />
                 <Route path="paper-details" element={<ArticleDetails />} />
             </Route>
             {/* archives */}
@@ -89,7 +151,7 @@ export default function RouteControl() {
             <Route path="/impact-Factor" element={<MetaDataWrapper><ImactFactor /></MetaDataWrapper>} />
             <Route path="/FAQs" element={<MetaDataWrapper><FAQ /></MetaDataWrapper>} />
             <Route path="/journal-particulars" element={<MetaDataWrapper><JournalParticularsContainer /></MetaDataWrapper>} />
-            
+
             {/* about end */}
 
             {/* for authors */}
@@ -104,17 +166,17 @@ export default function RouteControl() {
 
 
             {/* conference */}
-            <Route path="/conference-procedings" element={<MetaDataWrapper><ConferenceProcedings /></MetaDataWrapper>}/>
-            
+            <Route path="/conference-procedings" element={<MetaDataWrapper><ConferenceProcedings /></MetaDataWrapper>} />
+
             <Route path="/conference" element={<MetaDataWrapper><Conference /></MetaDataWrapper>}>
                 <Route index element={<ConferenceIndex />} />
-                <Route path="paperlist" element={<ConferenceVolumes/>} />
+                <Route path="paperlist" element={<ConferenceVolumes />} />
                 <Route path="paper-details" element={<ConferenceDetails />} />
             </Route>
 
             <Route path="/privacy-policy" element={<MetaDataWrapper><Policy /></MetaDataWrapper>} />
-            <Route path="/terms-and-conditions" element={<MetaDataWrapper ><TermsAndConditions/></MetaDataWrapper>} />
-            <Route path="/refund-policy" element={<MetaDataWrapper><RefundPolicy/></MetaDataWrapper>} />
+            <Route path="/terms-and-conditions" element={<MetaDataWrapper ><TermsAndConditions /></MetaDataWrapper>} />
+            <Route path="/refund-policy" element={<MetaDataWrapper><RefundPolicy /></MetaDataWrapper>} />
             {/* error */}
             <Route path="*" element={<Page404 />} />
         </Routes>
