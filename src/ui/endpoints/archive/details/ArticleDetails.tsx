@@ -137,9 +137,9 @@ const ArticleDetails = () => {
                 <VscFilePdf size={18} className="ml-4" />
               </PrimaryBtn>
             </Link>
-            <Link aria-label="link" to="#" className="hover:scale-105 transition-all text-dark rounded-md font-semibold flex items-center justify-center space-x-3 text-sm xl:text-base 2xl:text-lg">
+            <span aria-label="link" className="hover:scale-105 transition-all text-dark rounded-md font-semibold flex items-center justify-center space-x-3 text-sm xl:text-base 2xl:text-lg">
               <img loading="lazy" src="/checkupdate.webp" alt=" check update" width={180} />
-            </Link>
+            </span>
           </div>
 
           <button className={`hidden sm:inline-flex items-center justify-center ${copy ? "bg-green-300 hover:bg-green-400" : "bg-[#A52A2A1A] hover:bg-[#cc282846]"} text-primary-text text-sm xl:text-base 2xl:text-lg font-medium w-12 h-12  xl:h-16 xl:w-16 transition-colors rounded-full`} onClick={() => {
