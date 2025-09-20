@@ -2,50 +2,50 @@ import Title2h2 from "../other/Title2h2";
 
 const features = [
   {
-    title: "Rigorous Peer Review",
+    title: "Affordable and Low Cost Computer Science Journals",
     img: "/review.webp", // Replace with actual path
     points: [
       "Strict peer review standards",
       "Multi-disciplinary expert reviewers",
       "Constructive feedback",
     ],
-    desc: "Our multi-stage review process ensures quality while maintaining rapid turnaround times.",
+    desc: "Combining an affordable publication model with high visibility, INDJCST offers one of the best platforms among low cost computer science journals.",
   },
   {
-    title: "Rapid Publication",
+    title: "High Visibility and Indexing:",
     img: "/publication.webp",
     points: [
       "Initial response within 12 hours",
       "Review completed in 2–7 days",
       "Final decision within 3–7 days",
     ],
-    desc: "From submission to publication in record time without compromising quality.",
+    desc: "Indexed in global repositories including Google Scholar, making it part of the Google Scholar computer science journals list, enhancing discoverability and impact.",
   },
   {
-    title: "Global Impact",
+    title: "Fast and Streamlined Publication Process",
     img: "/global.webp",
     points: [
       "Open Access policy",
       "Broad international readership",
       "Policy-maker engagement",
     ],
-    desc: "Your research reaches beyond academia to influence policy and industry.",
+    desc: "From submission to publication, our fast publication computer science journals list standards mean authors receive decisions within days, ensuring rapid dissemination of research.",
   },
   {
-    title: "Efficient Process",
+    title: "Comprehensive Coverage",
     img: "/process.webp",
-    desc: "From submission to publication, our streamlined workflow saves you time with quick responses at every stage.",
+    desc: "Encompassing all research areas, INDJCST is a leading name in the computer science journals list and a key player among journal publication sites for computer science research.",
   },
-  {
-    title: "Plagiarism Protection",
-    img: "/protection.webp",
-    desc: "Rigorous screening maintains academic integrity while our automated systems handle administrative tasks.",
-  },
-  {
-    title: "COPE Compliance",
-    img: "/cope.webp",
-    desc: "We adhere to the highest publication ethics following COPE's Best Practice Guidelines.",
-  },
+  // {
+  //   title: "Plagiarism Protection",
+  //   img: "/protection.webp",
+  //   desc: "Rigorous screening maintains academic integrity while our automated systems handle administrative tasks.",
+  // },
+  // {
+  //   title: "COPE Compliance",
+  //   img: "/cope.webp",
+  //   desc: "We adhere to the highest publication ethics following COPE's Best Practice Guidelines.",
+  // },
 ];
 
 export default function WhyPublishWithUs() {

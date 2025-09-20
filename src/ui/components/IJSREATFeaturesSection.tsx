@@ -4,16 +4,13 @@ import { CheckCircle } from 'lucide-react'; // or use your own SVGs
 import Title2h2 from '../other/Title2h2';
 
 const features = [
-  "Peer-reviewed Referred Journal",
-  "Easy, fast, transparent paper publication process.",
-  "Strict Plagiarism policy",
-  "Simple steps for publication of research and review articles.",
-  "High Visibility & Indexing",
-  "Publication Ethics: COPE’s Best Practice Guidelines",
-  "Publisher License under Creative Commons By NC ND",
-  "Good Impact Factor",
-  "Reputed Editorial Board",
-  "Rapid/Fast Track Publication"
+  "Peer-reviewed refereed journal recognized as one of the top 10 journals in computer science",
+  "Simple, fast, and transparent paper publication process",
+  "Rapid/fast track publication dedicated to author convenience",
+  "Strict plagiarism policy ensuring research integrity",
+  "High impact factor with a reputed editorial board",
+  "Compliance with COPE guidelines and Creative Commons licensing",
+  "Online submission with 24/7 access"
 ];
 
 

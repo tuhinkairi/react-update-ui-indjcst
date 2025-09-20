@@ -4,45 +4,45 @@ import Title2h2 from "../../other/Title2h2";
 const steps = [
   {
     title: 'Submission',
-    description: 'Submit your paper through our advanced editorial management system anytime, from anywhere in the world.',
+    description: 'Submit your work anytime with our advanced editorial management system, fitting standards of leading computer science journals in India.',
     image: './submitPaper.webp',
     button: true,
   },
   {
     title: 'Initial Review',
-    description: 'Our editorial team conducts a quick quality check and assigns reviewers within 12 hours of submission.',
+    description: 'Quick quality check completed within 12 hours of submission.',
     image: './review.webp',
   },
   {
     title: 'Peer Review',
-    description: 'Expert reviewers evaluate your paper\'s quality, originality, and significance within 2-7 days.',
+    description: 'Expert reviewers evaluate your paper’s originality and significance in 2-7 days.',
     image: './acceptance.webp',
   },
   {
     title: 'Decision Notification',
-    description: 'Receive acceptance, revision, or rejection notification within 3-7 days of submission.',
+    description: 'Get your acceptance, revision, or rejection notification within 3-7 days.',
     image: './processing.webp',
   },
   {
     title: 'Publication & Certification',
-    description: 'Submit the Final article, Copyright Form, APC and required forms.',
+    description: 'Accepted papers are published immediately with open access, and authors receive digital certificates.',
     image: './copyright.webp',
   },
-  {
-    title: 'Final Processing',
-    description: 'Typesetting and layout completed by our editorial staff.',
-    image: './review.webp',
-  },
-  {
-    title: 'Online Publication',
-    description: 'Paper published with DOI(optional) and listed for indexing.',
-    image: './publication.webp',
-  },
-  {
-    title: 'Author Dashboard',
-    description: 'Track views, downloads, DOI, and access post-publication support.',
-    image: './submitPaper.webp',
-  }
+  // {
+  //   title: 'Final Processing',
+  //   description: 'Typesetting and layout completed by our editorial staff.',
+  //   image: './review.webp',
+  // },
+  // {
+  //   title: 'Online Publication',
+  //   description: 'Paper published with DOI(optional) and listed for indexing.',
+  //   image: './publication.webp',
+  // },
+  // {
+  //   title: 'Author Dashboard',
+  //   description: 'Track views, downloads, DOI, and access post-publication support.',
+  //   image: './submitPaper.webp',
+  // }
 ];
 
 export default function PublishProcess() {

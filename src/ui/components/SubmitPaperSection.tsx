@@ -7,9 +7,14 @@ const SubmitPaperSection = () => {
       <div className="sm:w-1/2 text-center sm:text-left px-4 sm:px-0">
         <h2 className="text-2xl md:text-4xl font-semibold text-primary-text mb-4">Ready to Publish your Research?</h2>
         <p className="text-gray-700 mb-6 max-w-md mx-auto md:mx-0 font-medium">
-          Become part of a global community of passionate researchers. Publish with INDJCST - where innovation, speed, and scholarly impact come together.
+          Join the INDJCST community and publish with one of the top computer science journals
+          combining innovation, speed, and scholarly impact. Whether you&#39;re searching for the best
+          computer science journals, fast publishing computer science journals, or low cost
+          computer science journals, INDJCST offers you a trusted and reputable avenue.
           <br />
-           Experience a streamlined submission process and gain wide academic visibility.
+          Experience wide academic visibility on the Google Scholar computer science journals list
+          and beyond. Submit your paper now and become part of a global network dedicated to
+          advancing computer science and technology.
         </p>
         <Link aria-label="link" target="_black" to="https://editorial.fdrpjournals.org/login?journal=6">
           <button className="w-fit max-w-1/3 sm:max-w-1/2 md:w-auto primaryBtn whitespace-nowrap">

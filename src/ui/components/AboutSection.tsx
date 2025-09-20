@@ -13,16 +13,22 @@ export default function AboutSection() {
         {/* Text Content */}
         <div className="w-full md:w-1/2">
           {/* <h2 className="text-3xl font-semibold text-primaryText mb-4">Welcome to INDJCST</h2> */}
-          <Title2h2>Welcome to INDJCST</Title2h2>
+          <Title2h2>INDJCST Welcomes You!T</Title2h2>
           <h3 className="font-medium text-sm xl:text-base 2xl:text-lg leading-relaxed">Empowering researchers. Advancing technology. Publishing excellence.</h3>
           <p className="text-secondaryText mb-4 text-sm xl:text-base 2xl:text-lg leading-relaxed mt-6">
-            The Indian Journal of Computer Science and Technology (INDJCST) (e-ISSN: 2583-5300) is a reputable, open-access journal dedicated to publishing high-quality research papers across all domains of Computer Science and Technology. Published three times a year, INDJCST serves as a reliable platform for academicians, educators, researchers, engineers, and industry professionals to share their findings and contribute to the advancement of the field.
+            The <b>Indian Journal of Computer Science and Technology (INDJCST)</b> (e-ISSN: 2583-
+            5300) is a reputable, open-access journal dedicated to publishing high-quality research papers
+            across all domains of Computer Science and Technology. As one of the <b>top computer
+            science journals in India</b>, and listed among the best computer science journals, INDJCST
+            provides a reliable platform for academicians, educators, researchers, engineers, and industry
+            professionals.
           </p>
           <p className="text-secondaryText text-sm xl:text-base 2xl:text-lg leading-relaxed mt-6">
-            INDJCST adheres to UGC-CARE guidelines and follows a rigorous peer-review process, ensuring that every submission meets the highest standards of scholarly excellence. As a refereed journal, we are committed to maintaining credibility and integrity in academic publishing, offering researchers a trusted space to showcase their work.
-          </p>
-          <p className="text-secondaryText text-sm xl:text-base 2xl:text-lg leading-relaxed mt-6">
-            INDJCST combines an affordable publication model with a streamlined and supportive submission process, making it ideal for authors seeking to publish in recognized, peer-reviewed journals. Whether you're looking to publish in a refereed journal, or simply want to ensure your research gains global visibility, INDJCST is your ideal publishing partner.
+            Published three times a year, INDJCST follows the <b>best computer science journals list</b>
+            standards and adheres strictly to UGC-CARE guidelines. Our rigorous peer-review process
+            ensures that every submission meets the highest standards of scholarly excellence, making
+            INDJCST a <b>trusted journal of computer science</b> and an excellent choice for authors seeking
+            <b>fast publication computer science journals</b> or <b>fast publishing computer science</b> journals.
           </p>
         </div>
       </div>
