@@ -1,6 +1,9 @@
+import type { Topic } from "../types/Api";
+
 export type TopicType = {
-  title: string;
-    data: string[];
+    title: string;
+    data?: string[];
+    Apidata?: Topic[];
 }
 export const topics_list: TopicType[] = [{
     "title": "Science, Engineering and Technology",

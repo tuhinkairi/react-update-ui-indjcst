@@ -185,3 +185,18 @@ export interface SearchProp {
 }
 
 
+export interface Topic {
+  id: number;
+  title: string;
+  content: string; // contains HTML string
+  category: string;
+  meta_title: string;
+  meta_description: string;
+  created_at: string; // ISO datetime string
+  updated_at: string; // ISO datetime string
+  deleted_at: string | null;
+}
+
+export interface TopicsResponse {
+  [category: string]: Topic[]; // dynamic category keys
+}

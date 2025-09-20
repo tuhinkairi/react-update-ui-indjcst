@@ -8,7 +8,7 @@ import ArchiveSlice from './Features/ArchiveSlice';
 import editorialSlice from './Features/editorialSlice';
 import blogSlice from './Features/BlogSlice';
 import thesisSlice from './Features/ThesisSlice';
-
+import topicsSlice from './Features/TopicsSlice';
 // Create the store
 const store = configureStore({
     reducer: {
@@ -20,6 +20,7 @@ const store = configureStore({
         editorial: editorialSlice.reducer,
         blog: blogSlice.reducer,
         thesis: thesisSlice.reducer,
+        topics: topicsSlice.reducer,
 
     },
 });

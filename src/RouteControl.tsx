@@ -21,6 +21,7 @@ import CseJournalTopComputerScienceJournalsInIndiaIndjcst from "./ui/endpoints/e
 import CseJournalLowCostComputerScienceJournalsInIndiaIndjcst from "./ui/endpoints/external/CseJournalLowCostComputerScienceJournalsInIndiaIndjcst";
 import CseJournalGoogleScholarComputerScienceJournalsListIndjcst from "./ui/endpoints/external/CseJournalGoogleScholarComputerScienceJournalsListIndjcst";
 import CseJournalForComputerScienceResearchIndjcst from "./ui/endpoints/external/CseJournalForComputerScienceResearchIndjcst";
+import TopicDetails from "./ui/endpoints/for-authors/topics/TopicDetails";
 const ThesisDetails = React.lazy(() => import("./ui/endpoints/Thesis/ThesisDetails"));
 const Home = React.lazy(() => import("./ui/endpoints/home/Home"));
 const Archives = React.lazy(() => import("./ui/endpoints/archive/Archives"));
@@ -159,6 +160,7 @@ export default function RouteControl() {
             <Route path="/journal-publishing-process" element={<MetaDataWrapper><JournalPublishingProcess /></MetaDataWrapper>} />
             <Route path="/call-for-papers" element={<MetaDataWrapper><CallForPapers /></MetaDataWrapper>} />
             <Route path="/topics" element={<MetaDataWrapper><Topics /></MetaDataWrapper>} />
+            <Route path="/topics/:slug" element={<MetaDataWrapper><TopicDetails /></MetaDataWrapper>} />
             <Route path="/paper-status" element={<MetaDataWrapper><ArticleStatus /></MetaDataWrapper>} />
             <Route path="/instruction-for-author" element={<MetaDataWrapper><GuideForAuther /></MetaDataWrapper>} />
             <Route path="/article-processing-charges" element={<MetaDataWrapper><ArticleProcessingCharges /></MetaDataWrapper>} />
