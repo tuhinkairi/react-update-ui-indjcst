@@ -5,8 +5,8 @@ import CommonLayout from "../../components/layout/CommonLayout";
 const CseJournalLowCostComputerScienceJournalsInIndiaIndjcst: React.FC = () => {
   return (
     <MetaDataWrapper
-      titleDynamic="CSE Journal | Low Cost Computer Science Journals in India – INDJCST"
-      desciptionDynamic="INDJCST is a leading low-cost CSE journal in India, publishing research in AI, IoT, Data Science, Cybersecurity, and emerging technologies. Fast peer review, open access, global indexing, and affordable publication fees."
+      titleDynamic="Low-Cost Computer Science Journals in India | Affordable Publishing"
+      desciptionDynamic="Publish in low-cost computer science journals in India. Affordable fees, peer-reviewed process, and reliable publication support."
     >
       <CommonLayout>
         {/* About Section */}

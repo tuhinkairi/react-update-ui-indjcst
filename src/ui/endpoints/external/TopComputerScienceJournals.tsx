@@ -4,8 +4,8 @@ import MetaDataWrapper from "../../components/layout/MetaDataWrapper";
 
 const TopComputerScienceJournals: React.FC = () => {
     return (
-        <MetaDataWrapper titleDynamic="CSE Journal | Top Computer Science Journals – INDJCST"
-            desciptionDynamic="INDJCST is a leading CSE journal listed among top computer science journals. Publish research in AI, IoT, Data Science, Cybersecurity, and emerging technologies with rapid peer review, open access, global indexing, and minimal publication fees.">
+        <MetaDataWrapper titleDynamic="Top Computer Science Journals | High Impact Indexed"
+            desciptionDynamic="Publish your work in top computer science journals with high impact factor, peer review, and global academic recognition.">
             <CommonLayout>
                 {/* Hero Section */}
                 <section className="bg-gradient-to-r from-indigo-600 to-purple-700 text-white py-16 px-6 text-center">

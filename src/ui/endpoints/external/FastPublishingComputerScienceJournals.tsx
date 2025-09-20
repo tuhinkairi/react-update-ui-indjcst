@@ -5,8 +5,8 @@ import CommonLayout from "../../components/layout/CommonLayout";
 const FastPublishingComputerScienceJournals: React.FC = () => {
   return (
     <MetaDataWrapper
-      titleDynamic="CSE Journal | Fast Publishing Computer Science Journals – INDJCST"
-      desciptionDynamic="INDJCST is a leading CSE journal featured in fast publishing computer science journals. Publish research in AI, Data Science, IoT, Cybersecurity & more with rapid peer review, open access, global indexing, and minimal publication fees."
+      titleDynamic="Fast Publishing Computer Science Journals | Quick Indexing"
+      desciptionDynamic="Publish in fast publishing computer science journals with rapid peer review, quick indexing, and international recognition."
     >
       <CommonLayout>
         {/* About Section */}
