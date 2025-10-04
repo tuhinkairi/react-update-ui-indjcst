@@ -160,7 +160,7 @@ export default function RouteControl() {
             <Route path="/journal-publishing-process" element={<MetaDataWrapper><JournalPublishingProcess /></MetaDataWrapper>} />
             <Route path="/call-for-papers" element={<MetaDataWrapper><CallForPapers /></MetaDataWrapper>} />
             <Route path="/topics" element={<MetaDataWrapper><Topics /></MetaDataWrapper>} />
-            <Route path="/topics/:slug" element={<MetaDataWrapper><TopicDetails /></MetaDataWrapper>} />
+            <Route path="/topics/:slug" element={<TopicDetails />} />
             <Route path="/paper-status" element={<MetaDataWrapper><ArticleStatus /></MetaDataWrapper>} />
             <Route path="/instruction-for-author" element={<MetaDataWrapper><GuideForAuther /></MetaDataWrapper>} />
             <Route path="/article-processing-charges" element={<MetaDataWrapper><ArticleProcessingCharges /></MetaDataWrapper>} />

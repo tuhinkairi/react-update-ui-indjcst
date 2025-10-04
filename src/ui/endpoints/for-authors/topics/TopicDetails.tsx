@@ -4,6 +4,7 @@ import { useNavigate, useParams } from "react-router-dom"
 import CommonLayout from "../../../components/layout/CommonLayout"
 import { selectedTopic, setTopicsList } from "../../../../lib/store/Features/TopicsSlice"
 import { fetchTopics } from "../../../../lib/axios/api/topics"
+import MetaDataWrapper from "../../../components/layout/MetaDataWrapper"
 
 function TopicDetails() {
   const navigate = useNavigate()
@@ -50,10 +51,12 @@ function TopicDetails() {
   }, [slug, topicList, currentTitle, loadTopics, dispatch, navigate])
 
   return (
-     <CommonLayout>
+    <MetaDataWrapper titleDynamic={topicDetails?.meta_title} desciptionDynamic={topicDetails?.meta_description}>
+      <CommonLayout>
 
-       <article className="py-6" dangerouslySetInnerHTML={{ __html: topicDetails?.content ?? "" }} />
-     </CommonLayout>
+        <article className="py-6" dangerouslySetInnerHTML={{ __html: topicDetails?.content ?? "" }} />
+      </CommonLayout>
+    </MetaDataWrapper>
   )
 }
 
