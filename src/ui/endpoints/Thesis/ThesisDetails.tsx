@@ -145,7 +145,7 @@ const ThesisDetails = () => {
           </button>
 
           <div className="flex gap-3 justify-between w-full sm:w-fit flex-wrap">
-            <Link aria-label="link" to={activePaper.paper_url} rel="noreferrer" className="sm:hidden">
+            <Link aria-label="link" target="_blank" to={activePaper.paper_url} rel="noreferrer" className="sm:hidden">
               <PrimaryBtn className="whitespace-nowrap">
                 View PDF
                 <VscFilePdf size={18} className="ml-4" />
