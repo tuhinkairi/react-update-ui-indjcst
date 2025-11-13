@@ -22,6 +22,7 @@ import CseJournalLowCostComputerScienceJournalsInIndiaIndjcst from "./ui/endpoin
 import CseJournalGoogleScholarComputerScienceJournalsListIndjcst from "./ui/endpoints/external/CseJournalGoogleScholarComputerScienceJournalsListIndjcst";
 import CseJournalForComputerScienceResearchIndjcst from "./ui/endpoints/external/CseJournalForComputerScienceResearchIndjcst";
 import TopicDetails from "./ui/endpoints/for-authors/topics/TopicDetails";
+import TagShow from "./ui/endpoints/blog/show/TagShow";
 const ThesisDetails = React.lazy(() => import("./ui/endpoints/Thesis/ThesisDetails"));
 const Home = React.lazy(() => import("./ui/endpoints/home/Home"));
 const Archives = React.lazy(() => import("./ui/endpoints/archive/Archives"));
@@ -37,6 +38,7 @@ const FAQ = React.lazy(() => import("./ui/endpoints/about/FAQ/FAQ"));
 const EthicsAndPolicy = React.lazy(() => import("./ui/endpoints/about/ethics/EthicsAndPolicy"));
 const EditoralSingle = React.lazy(() => import("./ui/endpoints/Editorial/EditorialPage/EditoralSingle"));
 const Blog = React.lazy(() => import("./ui/endpoints/blog/Blog"));
+const Tag = React.lazy(() => import("./ui/endpoints/blog/Tag"));
 const BlogShow = React.lazy(() => import("./ui/endpoints/blog/show/BlogShow"));
 const ContactUs = React.lazy(() => import("./ui/endpoints/contact-us/ContactUs"));
 const Download = React.lazy(() => import("./ui/endpoints/for-authors/download-section/Download"));
@@ -114,8 +116,9 @@ export default function RouteControl() {
 
             {/* <Route path="/for-authors" element={<>comming soon</>} /> */}
             <Route path="/blogs" loader={true} element={<MetaDataWrapper><Blog /></MetaDataWrapper>} />
+            <Route path="/tag" loader={true} element={<MetaDataWrapper><Tag /></MetaDataWrapper>} />
             <Route path="/blogs/:slug" element={<BlogShow />} />
-            <Route path="/tag/:slug" element={<BlogShow />} />
+            <Route path="/tag/:slug" element={<TagShow />} />
             <Route path="/contact-us" element={<MetaDataWrapper><ContactUs /></MetaDataWrapper>} />
 
             <Route path="/publications" element={<MetaDataWrapper><ThesisIndex /></MetaDataWrapper>} />

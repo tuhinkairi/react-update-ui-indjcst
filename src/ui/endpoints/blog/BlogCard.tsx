@@ -1,4 +1,4 @@
-import { useNavigate } from "react-router-dom"
+import { useLocation, useNavigate } from "react-router-dom"
 import type { Blog } from "../../../types/Api"
 import { useAppDispatch } from "../../../lib/store/store"
 import { setBlog } from "../../../lib/store/Features/BlogSlice"
@@ -6,15 +6,19 @@ import { setBlog } from "../../../lib/store/Features/BlogSlice"
 export const BlogCard = ({ blog, keyProp }: { blog: Blog, keyProp: number }) => {
     const navigate = useNavigate()
     const dispatch = useAppDispatch()
+    const path = useLocation().pathname;
 
     const handelNavigate = () => {
         dispatch(setBlog(blog))
-        navigate(`/blogs/${blog.url_title}`)
+        navigate(path.startsWith("blogs")?`/blogs/${blog.url_title}`:`/tag/${blog.url_title}`)
     }
     return (
         <div key={keyProp} className=" rounded-md overflow-hidden border border-gray-200 max-w-[400px] mx-auto">
+            {path.startsWith("blogs")?
             <img loading='lazy'
-                src={blog.image !== "https://INDJCST.com/blogImage/" ? blog.image ?? "" : "/blog.webp"} alt={blog.title ?? "blog image"} className="w-full h-64 object-cover" />
+                src={blog.image !== "https://INDJCST.com/blogImage/" ? blog.image ?? "" : "/blog.webp"} alt={blog.title ?? "blog image"} className="w-full h-64 object-cover" />:
+            <img loading='lazy'
+                src={blog.image !== "https://www.indjcst.com/tagImage/" ? blog.image ?? "" : "/blog.webp"} alt={blog.title ?? "tag image"} className="w-full h-64 object-cover" />}
             <div className="p-5">
                 <h2 onClick={handelNavigate} className="bg-gradient-to-r from-primary to-primary-hover bg-clip-text text-transparent text-2xl  mb-3 leading-snug font-serif relative cursor-pointer">
                     {blog.title}

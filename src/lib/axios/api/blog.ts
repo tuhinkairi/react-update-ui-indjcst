@@ -9,3 +9,13 @@ export const fetchBlog = async () => {
         throw new Error(`Failed to fetch archive: ${error}`);
     }
 }
+
+export const fetchTag = async () => {
+    try {
+        const response = await axiosClient.post("/tagFetch");
+        // console.log(response.data.tagsList)
+        return response.data.tagsList; 
+    } catch (error) {
+        throw new Error(`Failed to fetch archive: ${error}`);
+    }
+}

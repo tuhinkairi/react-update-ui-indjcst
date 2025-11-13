@@ -9,6 +9,7 @@ import editorialSlice from './Features/editorialSlice';
 import blogSlice from './Features/BlogSlice';
 import thesisSlice from './Features/ThesisSlice';
 import topicsSlice from './Features/TopicsSlice';
+import TagSlice from './Features/TagSlice';
 // Create the store
 const store = configureStore({
     reducer: {
@@ -21,6 +22,7 @@ const store = configureStore({
         blog: blogSlice.reducer,
         thesis: thesisSlice.reducer,
         topics: topicsSlice.reducer,
+        tag: TagSlice.reducer,
 
     },
 });
