@@ -43,6 +43,7 @@ export default function Footer() {
             <ul className="space-y-3 text-sm 2xl:text-base  text-gray-600">
               <li><NavLink to="/instruction-for-author" className="pointer hover:text-primary">Instructions for Authors</NavLink></li>
               <li><NavLink to="/ethics?target=instructions-for-authors" className="pointer hover:text-primary">Editor guidelines</NavLink></li>
+              <li><NavLink to="/tag" className="pointer hover:text-primary">Tags</NavLink></li>
               <li><NavLink to="/journal-publishing-process" className="pointer hover:text-primary">Journal Publishing Process</NavLink></li>
               <li><NavLink to="/archives" className="pointer hover:text-primary">Archives</NavLink></li>
               <li><NavLink to="/call-for-papers" className="pointer hover:text-primary">Call for Papers</NavLink></li>

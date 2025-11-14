@@ -14,7 +14,7 @@ export default function Tag() {
     const currentPage = useAppSelector(state=>state.pagination.current_page)
     const [page, setPage] = useState(currentPage);
     const [TagList, setTagList] = useState<Tag[]>(useAppSelector((state) => state.tag.TagList));
-    console.log(TagList)
+    // console.log(TagList)
     const itemsPerPage = 10;
     const [totalPages, setTotalPages] = useState(Math.ceil(TagList.length/itemsPerPage)); // Ensure at least 1 page if no tags
     const dispatch = useAppDispatch();
