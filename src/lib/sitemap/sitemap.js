@@ -1,6 +1,6 @@
 import * as fs from "fs";
 import { SitemapStream, streamToPromise } from 'sitemap';
-import axiosClientSitemap  from "./axios-client.js";
+import axiosClientSitemap from "./axios-client.js";
 
 const apiService = axiosClientSitemap();
 
@@ -39,9 +39,18 @@ async function fetchcurrentIssueList() {
 async function fetchBlogListings() {
   try {
     const response = await apiService.post('blogFetch');
-    return response.data;
+    return response.data.blogList;
   } catch (error) {
     console.error('Error fetching blog listing:', error);
+    return [];
+  }
+}
+async function fetchTagListings() {
+  try {
+    const response = await apiService.post('tagFetch');
+    return response.data.tagsList;
+  } catch (error) {
+    console.error('Error fetching tag listing:', error);
     return [];
   }
 }
@@ -52,6 +61,7 @@ async function generateSitemap() {
     { url: '/contact-us', changefreq: 'monthly', priority: 0.9 },
     { url: '/ethics', changefreq: 'monthly', priority: 0.8 },
     { url: '/blogs', changefreq: 'weekly', priority: 0.85 },
+    { url: '/tag', changefreq: 'weekly', priority: 0.85 },
     { url: '/aim-and-scope', changefreq: 'monthly', priority: 0.85 },
     { url: '/editorial-board', changefreq: 'monthly', priority: 0.8 },
     { url: '/peer-review-policy', changefreq: 'monthly', priority: 0.8 },
@@ -80,6 +90,7 @@ async function generateSitemap() {
   const dataList = await fetchDataListing();
   const conferenceList = await fetchConferenceListing();
   const blogList = await fetchBlogListings();
+  const tagList = await fetchTagListings();
   const currentIssueList = await fetchcurrentIssueList();
 
   const writtenUrls = new Set();
@@ -162,10 +173,10 @@ async function generateSitemap() {
   }
 
   // Blog posts
-  if (blogList && blogList.blogList && Array.isArray(blogList.blogList)) {
+  if (blogList && Array.isArray(blogList)) {
     const uniqueUrlTitles = new Set();
 
-    blogList.blogList.forEach((blog) => {
+    blogList.forEach((blog) => {
       const { url_title, title } = blog;
 
       if (!uniqueUrlTitles.has(url_title)) {
@@ -180,7 +191,28 @@ async function generateSitemap() {
       }
     });
   } else {
-    console.log("Error: blogList.blogList is not an array or is undefined");
+    console.log("Error: blogList is not an array or is undefined");
+  }
+
+  if (tagList && Array.isArray(tagList)) {
+    const uniqueUrlTitles = new Set();
+
+    tagList.forEach((tag) => {
+      const { url_title, title } = tag;
+
+      if (!uniqueUrlTitles.has(url_title)) {
+        const tagUrl = `/tag/${url_title}`;
+        if (!writtenUrls.has(tagUrl)) {
+          sitemapStream.write({ url: tagUrl, changefreq: 'weekly', priority: 0.7 });
+          writtenUrls.add(tagUrl);
+          uniqueUrlTitles.add(url_title);
+        }
+      } else {
+        console.log(`Duplicate url_title found: ${title}`);
+      }
+    });
+  } else {
+    console.log("Error: tagList is not an array or is undefined");
   }
 
   sitemapStream.end();
